@@ -1,0 +1,137 @@
+#aboutMe {
+  background-color: #fafafa;
+  padding: 0 40px 30px 40px;
+  scroll-margin-top: 10vh;
+}
+
+.aboutMe__title {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.aboutMe__title > h1 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.aboutMe__title > h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding: 0;
+  color: #607d8b;
+}
+
+.aboutMe__text {
+  padding-bottom: 20px;
+  font-size: 18px;
+  text-align: justify;
+  opacity: .7;
+}
+
+.aboutMe__text > p {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.aboutMe__specs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.aboutMe__specs > div {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.aboutMe__specs > div:nth-child(3),
+.aboutMe__specs > div:nth-child(4) {
+  padding-top: 10px;
+}
+
+.aboutMe__specs > div > label {
+  font-weight: 600;
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+.aboutMe__specs > div > span {
+  font-size: 18px;
+  opacity: .7;
+}
+
+.aboutMe__skills {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.aboutMe__skills > h1 {
+  font-size: 40px;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+.aboutMe__skillsDetails {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: flex-start;
+}
+
+.aboutMe__skillsDetails > div > h3 {
+  font-size: 20px;
+  color: #607d8b;
+  margin-bottom: 30px;
+}
+
+.aboutMe__skillsDetails > div > p {
+  font-size: 18px;
+  opacity: .7;
+  border-bottom: 2px solid #607d8b;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.aboutMe__eduWork {
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.aboutMe__eduWork > div > h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.aboutMe__eduWork > div > div {
+  margin-top: 30px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #607d8b;
+}
+
+@media only screen and (max-width: 768px) {
+  #aboutMe {
+    padding: 0 10px 30px 10px;
+  }
+
+  .aboutMe__skillsDetails {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .aboutMe__skillsDetails > div {
+    padding-right: 15px;
+  }
+
+  .aboutMe__skillsDetails > div > p {
+    padding-bottom: 5px;
+  }
+
+  .aboutMe__eduWork {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
