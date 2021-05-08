@@ -1,0 +1,72 @@
+.navigationBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigationBar__nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+  z-index: 1;
+  background-color: #b0bec5;
+  /* border-bottom: 2px solid var(--light); */
+}
+
+.navigationBar__nav > ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.navigationBar__nav > ul > li > a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding-right: 40px;
+  transition: color .2s ease-in-out;
+}
+
+.navigationBar__nav > ul > li > a:hover {
+  color: #607d8b;
+  transition: color .2s ease-in-out;
+}
+
+.navigationBar__hamburguer {
+  display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .navigationBar__nav > ul {
+    display: none;
+  }
+
+  .navigationBar__hamburguer {
+    display: inline-block !important;
+  }
+
+  .MuiSvgIcon-root {
+    font-size: 3.5rem !important;
+    width: 1.5em !important;
+  }
+
+  .navigationBar__link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-right: 40px;
+    transition: color .2s ease-in-out;
+  }
+  
+  .navigationBar__link:hover {
+    color: #607d8b;
+    transition: color .2s ease-in-out;
+  }
+}
