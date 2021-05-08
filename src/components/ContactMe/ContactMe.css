@@ -1,0 +1,146 @@
+#contactMe {
+  background-color: #fafafa;
+  margin-top: 0;
+  padding: 40px 40px;
+  scroll-margin-top: 10vh;
+}
+
+#contactMe > h1 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.contactMe__form {
+  padding: 20px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactMe__form > fieldset {
+  padding-top: 10px;
+  padding-bottom: 0;
+  border: 2px solid #607d8b;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.contactMe__form > fieldset > legend {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  opacity: .7;
+}
+
+.contactMe__form > fieldset > input, 
+.contactMe__form > fieldset > textarea {
+  font-family: 'Itim';
+  font-size: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  padding: 10px;
+  border: 2px solid #cfd8dc;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+}
+
+.contactMe__form > fieldset > textarea {
+  height: 100px;
+}
+
+.contactMe__submit {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+  letter-spacing: 2px;
+  color: #eceff1;
+  border: 2px solid #263238;
+  background-color: #607d8b;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 5px 0;
+  text-align: center;
+  margin-top: 20px;
+  transition: background-color .3s ease-in-out;
+}
+
+.contactMe__submit:hover {
+  color: #263238;
+  border: 2px solid #607d8b;
+  background-color: #eceff1;
+  transition: background-color .3s ease-in-out;
+}
+
+.contactMe__submit:active {
+  top: 1px;
+  position: relative;
+}
+
+.contactMe__social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactMe__social > h3 {
+  font-size: 25px;
+}
+
+.contactMe__social > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contactMe__icon {
+  color: black;
+  width: 50px !important;
+  height: 80px !important;
+  margin: 0 20px 0 20px;
+  transition: transform .3s ease-in-out;
+}
+
+.contactMe__icon:hover {
+  transform: scale(1.5);
+}
+
+
+@media only screen and (max-width: 768px) {
+  #contactMe {
+    padding: 40px 10px;
+  }
+
+  #contactMe > h1 {
+    text-align: left;
+  }
+
+  .contactMe__form > fieldset {
+    width: 90%;
+  }
+
+  .contactMe__form > fieldset > input, 
+  .contactMe__form > fieldset > textarea {
+    width: 90%;
+  }
+
+  .contactMe__icon {
+    color: black;
+    width: 90% !important;
+    height: 50px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transition: none;
+  }
+  
+  .contactMe__icon:hover {
+    transform: none;
+  }
+}
