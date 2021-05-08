@@ -1,0 +1,31 @@
+#projects {
+  background-color: #eceff1;
+  margin-top: 0;
+  padding: 0 40px 60px 40px;
+  scroll-margin-top: 10vh;
+}
+
+.projects__container > h1 {
+  padding-top: 40px;
+  margin-top: 0;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.projects__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: row;
+  gap: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  #projects {
+    padding: 0 10px 60px 10px;
+  }
+
+  .projects__cards {
+    grid-template-columns: 1fr;
+  }
+}
