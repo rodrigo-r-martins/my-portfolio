@@ -1,0 +1,97 @@
+.home {
+  width: 100%;
+  height: 90vh;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #eceff1;
+}
+
+.home__settings {
+  align-self:flex-end;
+  margin-top: 0;
+}
+
+.home__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__container > h1 {
+  font-size: 45px;
+  margin: 0;
+  padding-top: 20px;
+  letter-spacing: 8px;
+}
+
+.home__container > h2 {
+  font-size: 35px;
+  padding: 10px;
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+.home__container > img {
+  width: 150px;
+  border: 10px solid #607d8b;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 0px #607d8b;
+  transition: width 1s ease-in-out;
+}
+
+.home__container > img:hover {
+  width: 250px;
+}
+
+.MuiSvgIcon-fontSizeSmall {
+  font-size: 3.25rem !important;
+}
+
+.MuiIconButton-label {
+  display: flex;
+  flex-direction: column !important;
+}
+
+.home__resumeLabel {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 16px;
+  opacity: .6;
+}
+
+.home__resume {
+  padding: 0;
+  width: 90%;
+  height: auto;
+  object-fit: cover !important;
+  overflow: scroll !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .home__container {
+    margin-top: -13vh;
+  }
+
+  .home__container > h1 {
+    letter-spacing: 0;
+    font-size: 35px;
+  }
+
+  .home__container > h2 {
+    letter-spacing: 0;
+    font-size: 20px;
+  }
+
+  .home__resume {
+    padding: 0;
+    width: 100%;
+  }
+
+  .MuiSvgIcon-root {
+    height: 0.7em !important;
+    display: block !important;
+  }
+}
