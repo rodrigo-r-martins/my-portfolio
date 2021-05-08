@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Itim&family=Roboto:wght@300;500&display=swap&family=Dancing+Script&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Itim', sans-serif;
+}
