@@ -4,7 +4,8 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-
+import { HashLink } from 'react-router-hash-link';
+import { HashRouter } from 'react-router-dom';
 
 const NavigationBar = () => {
   const [link, setLink] = useState(null);
@@ -21,10 +22,10 @@ const NavigationBar = () => {
     <header className="navigationBar">
       <nav className="navigationBar__nav">
         <ul>
-          <li><a href="/#">HOME</a></li>
-          <li><a href="/#aboutMe">ABOUT ME</a></li>
-          <li><a href="/#projects">PROJECTS</a></li>
-          <li><a href="/#contactMe">CONTACT ME</a></li>
+          <li><HashRouter><HashLink to="#home">HOME</HashLink></HashRouter></li>
+          <li><HashRouter><HashLink to="#aboutMe">ABOUT ME</HashLink></HashRouter></li>
+          <li><HashRouter><HashLink to="#projects">PROJECTS</HashLink></HashRouter></li>
+          <li><HashRouter><HashLink to="#contactMe">CONTACT ME</HashLink></HashRouter></li>
         </ul>
         <div className="navigationBar__hamburguer">
           <IconButton 
@@ -44,16 +45,16 @@ const NavigationBar = () => {
             onClose={ onHandleClose }
           >
             <MenuItem onClick={ onHandleClose }>
-              <a className="navigationBar__link" href="/#">HOME</a>
+              <HashRouter><HashLink className="navigationBar__link" to="#home">HOME</HashLink></HashRouter>
             </MenuItem>
             <MenuItem onClick={ onHandleClose }>
-              <a className="navigationBar__link" href="/#aboutMe">ABOUT ME</a>
+              <HashRouter><HashLink className="navigationBar__link" to="#aboutMe">ABOUT ME</HashLink></HashRouter>
             </MenuItem>
             <MenuItem onClick={ onHandleClose }>
-              <a className="navigationBar__link" href="/#projects">PROJECTS</a>
+              <HashRouter><HashLink className="navigationBar__link" to="#projects">PROJECTS</HashLink></HashRouter>
             </MenuItem>
             <MenuItem onClick={ onHandleClose }>
-              <a className="navigationBar__link" href="/#contactMe">CONTACT ME</a>
+              <HashRouter><HashLink className="navigationBar__link" to="#contactMe">CONTACT ME</HashLink></HashRouter>
             </MenuItem>
           </Menu>
         </div>

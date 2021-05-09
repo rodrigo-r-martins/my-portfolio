@@ -38,7 +38,7 @@ const Home = () => {
   };
 
   return (
-    <div className="home">
+    <div id="home" className="home">
       <div className="home__container">
         <img src={ profile } alt="profile-pic"/>
         <h1>Hello!</h1>
