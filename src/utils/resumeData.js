@@ -9,6 +9,12 @@ import Blog_img from '../images/projects/React-BLOG.png';
 import Robofriends_img from '../images/projects/React-ROBOFRIENDS.png';
 import TicTacToe_img from '../images/projects/React-TICTACTOE.png';
 import UltraCorp_img from '../images/projects/ULTRA-CORPORATION.png';
+import InspirePic_img from '../images/projects/Inspire-Pic.png';
+import MyPortfolio_img from '../images/projects/My-Portfolio.png';
+import MillennialNews_img from '../images/projects/Millennial-News-Android.PNG';
+import ClimateChangeAnalysis_img from '../images/projects/ClimateChangeAnalysis.png';
+import LatinoRestaurantInManhattan_img from '../images/projects/LatinoRestaurantManhattan.png';
+
 
 const resumeData = {
   name: "Rodrigo Martins",
@@ -156,6 +162,22 @@ const resumeData = {
   ],
   projects: [
     {
+      name: "Inspire-Pic",
+      description: "Developed a mobile web application designed to photography lovers that allow them to look for photographs to inspire them capturing the moment, fetching the data from Unsplash API to get the photographs. The favorite photography will have the specifications, such as exposure time, aperture and iso, to help users to take the best picture.",
+      techStack: [
+        "Ionic",
+        "Angular",
+        "JavaScript",
+        "HTML",
+        "SCSS",
+        "Firebase",
+        "RestAPI"
+      ],
+      image: InspirePic_img,
+      github: "https://github.com/rodrigo-r-martins/inspire-pic",
+      link: "https://inspirepic-ionic.web.app/"
+    },
+    {
       name: "MLDB",
       description: "Collaborated in a team to implement a full-stack web application using Agile development methodologies that focus on movie information in one platform, and where users can register to the website, purchase tickets, and give feedback about the service. Movies data has been pulled from The Movie Database API (TMDb)",
       techStack: [
@@ -165,11 +187,72 @@ const resumeData = {
         "CSS",
         "NodeJS",
         "ExpressJS",
-        "MySQL"
+        "MySQL",
+        "RestAPI"
       ],
       image: MLDB_img,
       github: "https://github.com/rodrigo-r-martins/MLDB",
       link: ""
+    },
+    {
+      name: "Portfolio",
+      description: "Developed a responsive portfolio using React and Firebase Realtime Database that store the information given in ContactMe page.",
+      techStack: [
+        "React",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Material-UI",
+        "Firebase"
+      ],
+      image: MyPortfolio_img,
+      github: "https://github.com/rodrigo-r-martins/my-portfolio",
+      link: "https://rodrigo-r-martins.github.io/my-portfolio/"
+    },
+    {
+      name: "Millennial News App",
+      description: "Collaborating in a group of three to develop an Android App as a solution to avoid the need of viewing news from multiple apps, so the user can simply select the news agency and the country to view the news using this app. The data is fetched from NewsAPI to get the news articles. Although the app is under development, it can be tested downloading the APK in 'See Project'.",
+      techStack: [
+        "AndroidStudio",
+        "Java",
+        "RestAPI",
+        "XML",
+        "Firebase"
+      ],
+      image: MillennialNews_img,
+      github: "https://github.com/rodrigo-r-martins/millennial-news-app",
+      link: "https://github.com/rodrigo-r-martins/millennial-news-app/blob/main/Team2MillennialNewsMinSDK17Fixed.apk"
+    },
+    {
+      name: "Climate Change Analysis",
+      description: "Project created to clean, process and analyze temperatures and pollution data of big cities in the United States using Pandas, Numpy, Scikit-learn and Matplotlib - Python libraries, and then implementing a Linear Regression machine learning model to predict climate change according to each pollution gases.",
+      techStack: [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "Numpy",
+        "Scikit-learn",
+        "Matplotlib"
+      ],
+      image: ClimateChangeAnalysis_img,
+      github: "https://github.com/rodrigo-r-martins/climate-change-analysis",
+      link: "https://github.com/rodrigo-r-martins/climate-change-analysis/blob/main/final_presentation%20-%20losAngelesData.ipynb"
+    },
+    {
+      name: "Latino Restaurant in Manhattan",
+      description: "Project developed to create a hypothetical scenario for an entrepreneur who wants to explore opening a Latino Restaurant in Manhattan, NY by finding the best location to open the business using Data Science methodology and Machine Learning algorithms.",
+      techStack: [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "Numpy",
+        "Scikit-learn",
+        "Matplotlib",
+        "Folium"
+      ],
+      image: LatinoRestaurantInManhattan_img,
+      github: "https://github.com/rodrigo-r-martins/data_science_certificate_project",
+      link: "https://github.com/rodrigo-r-martins/data_science_certificate_project/blob/master/latino_restaurant_ny.ipynb"
     },
     {
       name: "Blog",
@@ -178,7 +261,9 @@ const resumeData = {
         "React",
         "JavaScript",
         "HTML",
-        "CSS"
+        "CSS",
+        "Firebase",
+        "RestAPI"
       ],
       image: Blog_img,
       github: "https://github.com/rodrigo-r-martins/react-blog",
@@ -191,7 +276,9 @@ const resumeData = {
         "React",
         "JavaScript",
         "HTML",
-        "CSS"
+        "CSS",
+        "Firebase",
+        "RestAPI"
       ],
       image: Robofriends_img,
       github: "https://github.com/rodrigo-r-martins/robofriends",
@@ -204,7 +291,8 @@ const resumeData = {
         "React",
         "JavaScript",
         "HTML",
-        "CSS"
+        "CSS",
+        "Firebase"
       ],
       image: TicTacToe_img,
       github: "https://github.com/rodrigo-r-martins/react-tic_tac_toe",
