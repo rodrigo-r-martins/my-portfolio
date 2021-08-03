@@ -30,11 +30,9 @@ const AboutMe = () => {
         </div>
         <div>
           <label>Hobbies: </label>
-          { resumeData.hobbies.map((hobby, index) => 
-            (
-              <span key={ index }>{ hobby }, </span>
-            )
-          )}
+          <span>
+            { resumeData.hobbies.map((hobby) => hobby).join(', ') }
+          </span>
         </div>
       </section>
       <section className="aboutMe__skills">

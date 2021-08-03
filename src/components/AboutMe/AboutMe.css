@@ -1,5 +1,5 @@
 #aboutMe {
-  background-color: #fafafa;
+  background-color: #e1e1e1;
   padding: 0 40px 30px 40px;
   scroll-margin-top: 10vh;
 }
@@ -7,6 +7,7 @@
 .aboutMe__title {
   padding-top: 10px;
   padding-bottom: 0;
+  color: #1a1a1d;
 }
 
 .aboutMe__title > h1 {
@@ -18,14 +19,14 @@
   font-size: 25px;
   margin-bottom: 10px;
   padding: 0;
-  color: #607d8b;
+  color: #c3073f;
 }
 
 .aboutMe__text {
   padding-bottom: 20px;
   font-size: 18px;
   text-align: justify;
-  opacity: .7;
+  opacity: .8;
 }
 
 .aboutMe__text > p {
@@ -81,14 +82,14 @@
 
 .aboutMe__skillsDetails > div > h3 {
   font-size: 20px;
-  color: #607d8b;
+  color: #c3073f;
   margin-bottom: 30px;
 }
 
 .aboutMe__skillsDetails > div > p {
   font-size: 18px;
   opacity: .7;
-  border-bottom: 2px solid #607d8b;
+  border-bottom: 2px solid #c3073f;
   padding-top: 0px;
   padding-bottom: 10px;
 }
@@ -108,9 +109,9 @@
 
 .aboutMe__eduWork > div > div {
   margin-top: 30px;
-  background-color: #fafafa;
+  background-color: #efefef;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px #607d8b;
+  box-shadow: 0px 0px 5px .1px #c3073f;
 }
 
 @media only screen and (max-width: 768px) {

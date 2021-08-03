@@ -1,5 +1,5 @@
 #projects {
-  background-color: #eceff1;
+  background-color: #1a1a1d;
   margin-top: 0;
   padding: 0 40px 60px 40px;
   scroll-margin-top: 10vh;
@@ -11,6 +11,7 @@
   padding-bottom: 20px;
   text-decoration: underline;
   font-size: 40px;
+  color: #e1e1e1;
 }
 
 .projects__cards {

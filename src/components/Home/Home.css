@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #eceff1;
+  background: #1a1a1d;
 }
 
 .home__settings {
@@ -18,6 +18,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: #e1e1e1;
 }
 
 .home__container > h1 {
@@ -36,9 +37,9 @@
 
 .home__container > img {
   width: 150px;
-  border: 10px solid #607d8b;
+  border: 10px solid #c3073f;
   border-radius: 50%;
-  box-shadow: 0px 0px 10px 0px #607d8b;
+  box-shadow: 0px 0px 10px 0px #c3073f;
   transition: width 1s ease-in-out;
 }
 
@@ -47,7 +48,8 @@
 }
 
 .MuiSvgIcon-fontSizeSmall {
-  font-size: 3.25rem !important;
+  margin-top: 30px;
+  font-size: 2.2rem !important;
 }
 
 .MuiIconButton-label {
@@ -59,7 +61,8 @@
   margin: 0 !important;
   padding: 0 !important;
   font-size: 16px;
-  opacity: .6;
+  opacity: .9;
+  font-style: italic;
 }
 
 .home__resume {
@@ -91,7 +94,7 @@
   }
 
   .MuiSvgIcon-root {
-    height: 0.7em !important;
+    height: 0.5em !important;
     display: block !important;
   }
 }
