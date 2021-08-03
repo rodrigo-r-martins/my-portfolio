@@ -4,6 +4,7 @@ import 'firebase/database';
 const firebaseConfig = {
   apiKey: "AIzaSyA-WnMWZYphXLzd44AlWJ2d7Psa-ivYzzI",
   authDomain: "rodrigo-martins-portfolio.firebaseapp.com",
+  databaseURL: "https://rodrigo-martins-portfolio-default-rtdb.firebaseio.com",
   projectId: "rodrigo-martins-portfolio",
   storageBucket: "rodrigo-martins-portfolio.appspot.com",
   messagingSenderId: "924261899769",

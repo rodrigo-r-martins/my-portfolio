@@ -49,6 +49,7 @@
   border-radius: 5px;
   outline: none;
   resize: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 .contactMe__form > fieldset > textarea {
