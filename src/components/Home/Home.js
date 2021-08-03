@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: theme.palette.background.paper,
-    border: '2px solid #607d8b',
+    border: '2px solid #c3073f',
     boxShadow: theme.shadows[5],
   },
 }));
@@ -42,8 +42,8 @@ const Home = () => {
       <div className="home__container">
         <img src={ profile } alt="profile-pic"/>
         <h1>Hello!</h1>
-        <h2>I'm Rodrigo Martins.</h2>
-        <h2>Full-Stack / Software Developer.</h2>
+        <h2>My name is Rodrigo Martins</h2>
+        <h2>I'm a Full-Stack / Software Developer</h2>
         <IconButton 
           edge="end" 
           size="small" 
@@ -52,7 +52,7 @@ const Home = () => {
           onClick={ onHandleOpen }
         >
           <DescriptionIcon fontSize="small"/>
-          <p className="home__resumeLabel">Resume</p>
+          <p className="home__resumeLabel">Open my Resume</p>
         </IconButton>
         <Modal
           aria-labelledby="transition-modal-title"
