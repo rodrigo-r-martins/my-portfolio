@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.db2df39a.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.6fedc67b.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.6fedc67b.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.a4ee05a9.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.a4ee05a9.js.map",
+    "static/js/2.af41fedd.chunk.js": "/my-portfolio/static/js/2.af41fedd.chunk.js",
+    "static/js/2.af41fedd.chunk.js.map": "/my-portfolio/static/js/2.af41fedd.chunk.js.map",
+    "static/js/3.41d67d0c.chunk.js": "/my-portfolio/static/js/3.41d67d0c.chunk.js",
+    "static/js/3.41d67d0c.chunk.js.map": "/my-portfolio/static/js/3.41d67d0c.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.db2df39a.chunk.css.map": "/my-portfolio/static/css/main.db2df39a.chunk.css.map",
+    "static/js/2.af41fedd.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.af41fedd.chunk.js.LICENSE.txt",
+    "static/media/ClimateChangeAnalysis.7d381e1c.png": "/my-portfolio/static/media/ClimateChangeAnalysis.7d381e1c.png",
+    "static/media/Inspire-Pic.8b7b5f6d.png": "/my-portfolio/static/media/Inspire-Pic.8b7b5f6d.png",
+    "static/media/LatinoRestaurantManhattan.fb4463ad.png": "/my-portfolio/static/media/LatinoRestaurantManhattan.fb4463ad.png",
+    "static/media/MLDB.54fc0185.png": "/my-portfolio/static/media/MLDB.54fc0185.png",
+    "static/media/Millennial-News-Android.536751d0.PNG": "/my-portfolio/static/media/Millennial-News-Android.536751d0.PNG",
+    "static/media/My-Portfolio.5a3e515e.png": "/my-portfolio/static/media/My-Portfolio.5a3e515e.png",
+    "static/media/React-BLOG.4ffcc4be.png": "/my-portfolio/static/media/React-BLOG.4ffcc4be.png",
+    "static/media/React-ROBOFRIENDS.c6718db8.png": "/my-portfolio/static/media/React-ROBOFRIENDS.c6718db8.png",
+    "static/media/React-TICTACTOE.2d73feab.png": "/my-portfolio/static/media/React-TICTACTOE.2d73feab.png",
+    "static/media/ULTRA-CORPORATION.6fdc5840.png": "/my-portfolio/static/media/ULTRA-CORPORATION.6fdc5840.png",
+    "static/media/profile_picture.831b1f8c.jpg": "/my-portfolio/static/media/profile_picture.831b1f8c.jpg",
+    "static/media/resume-rodrigo-martins.47ee27a2.png": "/my-portfolio/static/media/resume-rodrigo-martins.47ee27a2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4ee05a9.js",
+    "static/js/2.af41fedd.chunk.js",
+    "static/css/main.db2df39a.chunk.css",
+    "static/js/main.6fedc67b.chunk.js"
+  ]
+}
