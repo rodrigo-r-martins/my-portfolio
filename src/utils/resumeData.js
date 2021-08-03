@@ -132,7 +132,7 @@ const resumeData = {
   ],
   experience: [
     {
-      position: "Software Developer Intern",
+      position: "Software Developer",
       company: "CustomerDiscovery.co",
       period: "Apr 2021 - Current",
       location: "Remote",
