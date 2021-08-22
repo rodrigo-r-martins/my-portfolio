@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.db2df39a.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.6fedc67b.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.6fedc67b.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.ae1346a0.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.ae1346a0.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.a4ee05a9.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.a4ee05a9.js.map",
     "static/js/2.af41fedd.chunk.js": "/my-portfolio/static/js/2.af41fedd.chunk.js",
@@ -23,12 +23,12 @@
     "static/media/React-TICTACTOE.2d73feab.png": "/my-portfolio/static/media/React-TICTACTOE.2d73feab.png",
     "static/media/ULTRA-CORPORATION.6fdc5840.png": "/my-portfolio/static/media/ULTRA-CORPORATION.6fdc5840.png",
     "static/media/profile_picture.831b1f8c.jpg": "/my-portfolio/static/media/profile_picture.831b1f8c.jpg",
-    "static/media/resume-rodrigo-martins.47ee27a2.png": "/my-portfolio/static/media/resume-rodrigo-martins.47ee27a2.png"
+    "static/media/resume-rodrigo-martins.9a30af9b.png": "/my-portfolio/static/media/resume-rodrigo-martins.9a30af9b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a4ee05a9.js",
     "static/js/2.af41fedd.chunk.js",
     "static/css/main.db2df39a.chunk.css",
-    "static/js/main.6fedc67b.chunk.js"
+    "static/js/main.ae1346a0.chunk.js"
   ]
 }
