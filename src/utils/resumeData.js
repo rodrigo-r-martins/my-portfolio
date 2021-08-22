@@ -56,7 +56,8 @@ const resumeData = {
       "HTML",
       "CSS",
       "SQL",
-      "XML"
+      "XML",
+      "TypeScript",
     ],
     webMobileApplications: [
       "React",
@@ -65,19 +66,21 @@ const resumeData = {
       "Android",
       "NodeJS",
       "ExpressJS",
-      "GitHub"
+      "Redux",
+      "GitHub",
     ],
     dataScienceMl: [
       "Pandas",
       "Numpy",
       "Matplotlib",
       "Scikit-learn",
-      "Jupyter Notebook"
+      "Jupyter Notebook",
     ],
     databaseCloud: [
       "MySQL",
       "IBM Db2",
-      "Firebase"
+      "Firebase",
+      "MongoDB",
     ],
   },
   education: [
@@ -163,7 +166,7 @@ const resumeData = {
   projects: [
     {
       name: "Inspire-Pic",
-      description: "Developed a mobile web application designed to photography lovers that allow them to look for photographs to inspire them capturing the moment, fetching the data from Unsplash API to get the photographs. The favorite photography will have the specifications, such as exposure time, aperture and iso, to help users to take the best picture.",
+      description: "Developed a mobile full-stack web application designed to photography lovers that allow them to look for photographs to inspire them capturing the perfect moment. The data (photographies) is fetched from Unsplash API. The photography will have the specifications, such as exposure time, aperture and iso, to help users to take the best picture. Users can navigate as guest or sign up to the app where they will be able to add photographies to favorite and they will be saved in their portfolio. Firebase was used as the database to save the data.",
       techStack: [
         "Ionic",
         "Angular",
@@ -171,7 +174,7 @@ const resumeData = {
         "HTML",
         "SCSS",
         "Firebase",
-        "RestAPI"
+        "RestAPI",
       ],
       image: InspirePic_img,
       github: "https://github.com/rodrigo-r-martins/inspire-pic",
@@ -179,20 +182,21 @@ const resumeData = {
     },
     {
       name: "MLDB",
-      description: "Collaborated in a team to implement a full-stack web application using Agile development methodologies that focus on movie information in one platform, and where users can register to the website, purchase tickets, and give feedback about the service. Movies data has been pulled from The Movie Database API (TMDb)",
+      description: "Collaborated in a team on both front and back end to implement a full-stack web application using Agile development methodologies that focus on movie information in one platform, and where users can register to the website, find tickets to purchase, watch movies trailer, give feedback about the service and contact customer support. MongoDB is the database used to store the data. Movies data has been pulled from The Movie Database API (TMDb)",
       techStack: [
         "React",
+        "Redux",
         "JavaScript",
         "HTML",
-        "CSS",
+        "SCSS",
         "NodeJS",
         "ExpressJS",
-        "MySQL",
-        "RestAPI"
+        "MongoDB",
+        "RestAPI",
       ],
       image: MLDB_img,
       github: "https://github.com/rodrigo-r-martins/MLDB",
-      link: ""
+      link: "https://movielibrarydb.herokuapp.com/"
     },
     {
       name: "Portfolio",
@@ -269,21 +273,22 @@ const resumeData = {
       github: "https://github.com/rodrigo-r-martins/react-blog",
       link: "https://react-blog-2687d.web.app/"
     },
-    {
-      name: "Robofriends",
-      description: "Developed an interactive web application using ReactJS that allow users to search friends among robots and their cards will be displayed dynamically. Extracted images of robots from Robohash website and the data from JSON Placeholder Rest API.",
-      techStack: [
-        "React",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "Firebase",
-        "RestAPI"
-      ],
-      image: Robofriends_img,
-      github: "https://github.com/rodrigo-r-martins/robofriends",
-      link: ""
-    },
+    // {
+    //   name: "Robofriends",
+    //   description: "Developed an interactive web application using ReactJS that allow users to search friends among robots and their cards will be displayed dynamically. Extracted images of robots from Robohash website and the data from JSON Placeholder Rest API.",
+    //   techStack: [
+    //     "React",
+    //     "JavaScript",
+    //     "Redux",
+    //     "HTML",
+    //     "CSS",
+    //     "Firebase",
+    //     "RestAPI"
+    //   ],
+    //   image: Robofriends_img,
+    //   github: "https://github.com/rodrigo-r-martins/robofriends",
+    //   link: "https://github.com/rodrigo-r-martins/robofriends",
+    // },
     {
       name: "Tic Tac Toe",
       description: "Developed an interactive Tic Tac Toe game using ReactJS, JavaScript, HTML and CSS.",
@@ -298,18 +303,18 @@ const resumeData = {
       github: "https://github.com/rodrigo-r-martins/react-tic_tac_toe",
       link: "https://tic-tac-toe-fc24b.web.app/"
     },
-    {
-      name: "Ultra Corporation",
-      description: "Developed a responsive website using Vanilla JavaScript, HTML and CSS.",
-      techStack: [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      image: UltraCorp_img,
-      github: "",
-      link: ""
-    },
+    // {
+    //   name: "Ultra Corporation",
+    //   description: "Developed a responsive website using Vanilla JavaScript, HTML and CSS.",
+    //   techStack: [
+    //     "JavaScript",
+    //     "HTML",
+    //     "CSS"
+    //   ],
+    //   image: UltraCorp_img,
+    //   github: "",
+    //   link: ""
+    // },
   ]
 }
 
