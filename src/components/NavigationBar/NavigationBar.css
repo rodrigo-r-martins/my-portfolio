@@ -14,7 +14,7 @@
   width: 100%;
   height: 10vh;
   z-index: 1;
-  background-color: #c3073f;
+  background-color: #444cda;
   /* border-bottom: 2px solid var(--light); */
 }
 
@@ -71,6 +71,6 @@
   }
 
   .MuiList-root {
-    background-color: #c3073f;
+    background-color: #444cda;
   }
 }

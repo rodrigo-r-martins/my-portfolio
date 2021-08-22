@@ -1,5 +1,5 @@
 #projects {
-  background-color: #1a1a1d;
+  background-color: #2f2f2f;
   margin-top: 0;
   padding: 0 40px 60px 40px;
   scroll-margin-top: 10vh;
@@ -16,7 +16,7 @@
 
 .projects__cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   flex-direction: row;
   gap: 25px;
 }

@@ -18,7 +18,7 @@ import LatinoRestaurantInManhattan_img from '../images/projects/LatinoRestaurant
 
 const resumeData = {
   name: "Rodrigo Martins",
-  aboutMe: "My name is Rodrigo Martins. I'm a Brazilian Software Developer who have worked for 11 years as a Lawyer in Brazil before changing the direction of my career toward Computer Science in the United States. I have just graduated on a Master's degree in Computer Science at Pace University. Currently I'm working at CustomerDiscovery.co as a Software Developer Intern. I'm interested in learning more about Web and Mobile Development and diving deeper into JavaScript, React and NodeJS. I'm always looking for learning new skills and I'm willing to excel in the Tech industry.",
+  aboutMe: "My name is Rodrigo Martins. I'm a Brazilian Software Developer who have worked for 11 years as a Lawyer in Brazil before changing the direction of my career toward Computer Science in the United States. I have just graduated on a Master's degree in Computer Science at Pace University. Currently I'm working at CustomerDiscovery.co as a Software Developer. I'm interested in learning more technologies on both Web and Mobile Development and grow my skill set as I'm willing to excel in the Tech industry.",
   birthday: "April 9th",
   hometown: "Rio de Janeiro, Brazil",
   livingIn: "Stamford, CT, United States",
@@ -199,6 +199,20 @@ const resumeData = {
       link: "https://movielibrarydb.herokuapp.com/"
     },
     {
+      name: "Millennial News App",
+      description: "Collaborating in a group of three to develop an Android App as a solution to avoid the need of viewing news from multiple apps, so the user can simply select the news agency and the country to view the news using this app. The data is fetched from NewsAPI to get the news articles. Although the app is under development, it can be tested downloading the APK in 'See Project'.",
+      techStack: [
+        "AndroidStudio",
+        "Java",
+        "RestAPI",
+        "XML",
+        "Firebase"
+      ],
+      image: MillennialNews_img,
+      github: "https://github.com/rodrigo-r-martins/millennial-news-app",
+      link: "https://github.com/rodrigo-r-martins/millennial-news-app/blob/main/Team2MillennialNewsMinSDK17Fixed.apk"
+    },
+    {
       name: "Portfolio",
       description: "Developed a responsive portfolio using React and Firebase Realtime Database that store the information given in ContactMe page.",
       techStack: [
@@ -212,20 +226,6 @@ const resumeData = {
       image: MyPortfolio_img,
       github: "https://github.com/rodrigo-r-martins/my-portfolio",
       link: "https://rodrigo-r-martins.github.io/my-portfolio/"
-    },
-    {
-      name: "Millennial News App",
-      description: "Collaborating in a group of three to develop an Android App as a solution to avoid the need of viewing news from multiple apps, so the user can simply select the news agency and the country to view the news using this app. The data is fetched from NewsAPI to get the news articles. Although the app is under development, it can be tested downloading the APK in 'See Project'.",
-      techStack: [
-        "AndroidStudio",
-        "Java",
-        "RestAPI",
-        "XML",
-        "Firebase"
-      ],
-      image: MillennialNews_img,
-      github: "https://github.com/rodrigo-r-martins/millennial-news-app",
-      link: "https://github.com/rodrigo-r-martins/millennial-news-app/blob/main/Team2MillennialNewsMinSDK17Fixed.apk"
     },
     {
       name: "Climate Change Analysis",

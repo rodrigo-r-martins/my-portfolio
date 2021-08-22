@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #1a1a1d;
+  background: #2f2f2f;
 }
 
 .home__settings {
@@ -37,9 +37,9 @@
 
 .home__container > img {
   width: 150px;
-  border: 10px solid #c3073f;
+  border: 10px solid #444cda;
   border-radius: 50%;
-  box-shadow: 0px 0px 10px 0px #c3073f;
+  box-shadow: 0px 0px 10px 0px #444cda;
   transition: width 1s ease-in-out;
 }
 

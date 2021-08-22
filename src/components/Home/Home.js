@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: theme.palette.background.paper,
-    border: '2px solid #c3073f',
+    border: '2px solid #444cda',
     boxShadow: theme.shadows[5],
   },
 }));

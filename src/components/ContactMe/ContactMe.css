@@ -24,7 +24,7 @@
 .contactMe__form > fieldset {
   padding-top: 10px;
   padding-bottom: 0;
-  border: 2px solid #c3073f;
+  border: 2px solid #444cda;
   margin-bottom: 10px;
   border-radius: 5px;
 }
@@ -45,7 +45,7 @@
   margin-right: auto;
   width: 400px;
   padding: 10px;
-  border: 2px solid #c3073f40;
+  border: 2px solid #444cda40;
   border-radius: 5px;
   outline: none;
   resize: none;
@@ -63,7 +63,7 @@
   letter-spacing: 2px;
   color: #1a1a1d;
   border: 2px solid #1a1a1d;
-  background-color: #c3073f;
+  background-color: #444cda;
   font-size: 16px;
   font-weight: 700;
   border-radius: 5px;
@@ -74,7 +74,7 @@
 }
 
 .contactMe__submit:hover {
-  border: 2px solid #c3073f;
+  border: 2px solid #444cda;
   background-color: #e1e1e1;
   transition: background-color .3s ease-in-out;
 }
