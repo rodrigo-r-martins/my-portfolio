@@ -139,7 +139,7 @@ const resumeData = {
       company: "CustomerDiscovery.co",
       period: "Apr 2021 - Current",
       location: "Remote",
-      description: "Collaborating with frontend team to develop a responsive web platform using React, JavaScript, HTML and CSS to work on both web and mobile."
+      description: "Collaborating with frontend team to develop a responsive full-stack web platform using React, JavaScript, HTML and SCSS to work on both web and mobile."
     },
     {
       position: "Lawyer",
@@ -170,7 +170,7 @@ const resumeData = {
       techStack: [
         "Ionic",
         "Angular",
-        "JavaScript",
+        "TypeScript",
         "HTML",
         "SCSS",
         "Firebase",
