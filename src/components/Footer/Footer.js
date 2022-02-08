@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <footer className="footer__container">
-      <p>© { currentYear } Rodrigo Martins - Stamford, CT</p>
+      <p>© { currentYear } Rodrigo Martins - Ridgefield, CT</p>
     </footer>
   )
 }

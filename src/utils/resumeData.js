@@ -6,9 +6,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import resume_rodrigo_martins from '../images/resume-rodrigo-martins.png';
 import MLDB_img from '../images/projects/MLDB.png';
 import Blog_img from '../images/projects/React-BLOG.png';
-import Robofriends_img from '../images/projects/React-ROBOFRIENDS.png';
 import TicTacToe_img from '../images/projects/React-TICTACTOE.png';
-import UltraCorp_img from '../images/projects/ULTRA-CORPORATION.png';
 import InspirePic_img from '../images/projects/Inspire-Pic.png';
 import MyPortfolio_img from '../images/projects/My-Portfolio.png';
 import MillennialNews_img from '../images/projects/Millennial-News-Android.PNG';
@@ -21,7 +19,7 @@ const resumeData = {
   aboutMe: "My name is Rodrigo Martins. I'm a Brazilian Software Developer who have worked for 11 years as a Lawyer in Brazil before changing the direction of my career toward Computer Science in the United States. I have just graduated on a Master's degree in Computer Science at Pace University. Currently I'm working at CustomerDiscovery.co as a Software Developer. I'm interested in learning more technologies on both Web and Mobile Development and grow my skill set as I'm willing to excel in the Tech industry.",
   birthday: "April 9th",
   hometown: "Rio de Janeiro, Brazil",
-  livingIn: "Stamford, CT, United States",
+  livingIn: "Ridgefield, CT, United States",
   hobbies: [
     "Photography",
     "Soccer",
@@ -67,6 +65,7 @@ const resumeData = {
       "NodeJS",
       "ExpressJS",
       "Redux",
+      "Flask",
       "GitHub",
     ],
     dataScienceMl: [
@@ -81,6 +80,7 @@ const resumeData = {
       "IBM Db2",
       "Firebase",
       "MongoDB",
+      "PostgreSQL",
     ],
   },
   education: [
@@ -135,11 +135,18 @@ const resumeData = {
   ],
   experience: [
     {
-      position: "Software Developer",
-      company: "CustomerDiscovery.co",
-      period: "Apr 2021 - Current",
+      position: "Full-Stack Software Engineer",
+      company: "Because Intelligence",
+      period: "Aug 2021 - Current",
       location: "Remote",
-      description: "Collaborating with frontend team to develop a responsive full-stack web platform using React, JavaScript, HTML and SCSS to work on both web and mobile."
+      description: "Collaborating with both front-end and back-end team to develop a shopify application using React and SCSS in the front-end, and Python Flask and PostgreSQL in the back-end. Cleaned up the code by creating reusable components. Added new features and new designs to create a better user experience."
+    },
+    {
+      position: "Software Engineer",
+      company: "CustomerDiscovery.co",
+      period: "Apr 2021 - Dez 2021",
+      location: "Remote",
+      description: "Collaborated with front-end team to develop a responsive full-stack web platform using React, JavaScript, HTML and SCSS to work on both web and mobile. Worked with back-end team to implement logic and calls to the MongoDB database using Node.js and Express.js."
     },
     {
       position: "Lawyer",
@@ -273,22 +280,6 @@ const resumeData = {
       github: "https://github.com/rodrigo-r-martins/react-blog",
       link: "https://react-blog-2687d.web.app/"
     },
-    // {
-    //   name: "Robofriends",
-    //   description: "Developed an interactive web application using ReactJS that allow users to search friends among robots and their cards will be displayed dynamically. Extracted images of robots from Robohash website and the data from JSON Placeholder Rest API.",
-    //   techStack: [
-    //     "React",
-    //     "JavaScript",
-    //     "Redux",
-    //     "HTML",
-    //     "CSS",
-    //     "Firebase",
-    //     "RestAPI"
-    //   ],
-    //   image: Robofriends_img,
-    //   github: "https://github.com/rodrigo-r-martins/robofriends",
-    //   link: "https://github.com/rodrigo-r-martins/robofriends",
-    // },
     {
       name: "Tic Tac Toe",
       description: "Developed an interactive Tic Tac Toe game using ReactJS, JavaScript, HTML and CSS.",
@@ -303,18 +294,6 @@ const resumeData = {
       github: "https://github.com/rodrigo-r-martins/react-tic_tac_toe",
       link: "https://tic-tac-toe-fc24b.web.app/"
     },
-    // {
-    //   name: "Ultra Corporation",
-    //   description: "Developed a responsive website using Vanilla JavaScript, HTML and CSS.",
-    //   techStack: [
-    //     "JavaScript",
-    //     "HTML",
-    //     "CSS"
-    //   ],
-    //   image: UltraCorp_img,
-    //   github: "",
-    //   link: ""
-    // },
   ]
 }
 
