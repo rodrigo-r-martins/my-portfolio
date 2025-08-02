@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import { Navbar } from "@/components/layout/Navbar";
-import { Footer } from "@/components/layout/Footer";
+import Footer from "@/components/layout/Footer";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -8,7 +8,36 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Rodrigo Ribeiro Martins - Full Stack Engineer",
   description:
-    "Frontend-Focused Full Stack Engineer with expertise in React, TypeScript, and modern web technologies.",
+    "Full Stack Engineer with expertise in modern web technologies. Currently working on AI-driven e-commerce solutions.",
+  keywords: [
+    "Full Stack Engineer",
+    "AI-driven e-commerce solutions",
+    "React",
+    "TypeScript",
+    "Next.js",
+    "Tailwind CSS",
+    "Redux",
+    "Ionic",
+    "Angular",
+    "Python",
+    "Flask",
+    "Go",
+    "Node.js",
+    "Express.js",
+    "REST APIs",
+    "PostgreSQL",
+    "ClickHouse",
+    "MongoDB",
+    "Firebase",
+    "Grafana",
+    "Docker",
+    "Git",
+    "AWS",
+    "Shopify API",
+    "Shopify App Store",
+    "Shopify Theme",
+    "OpenAI",
+  ],
 };
 
 export default function RootLayout({
@@ -18,6 +47,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content={metadata.keywords.join(", ")} />
+      </head>
       <body
         className={`${inter.className} flex min-h-screen flex-col bg-white text-gray-900 antialiased dark:bg-gray-950 dark:text-gray-50`}
       >

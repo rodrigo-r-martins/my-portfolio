@@ -1,72 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-
-interface Experience {
-  title: string;
-  company: string;
-  period: string;
-  achievements: string[];
-  technologies: string[];
-}
-
-const experiences: Experience[] = [
-  {
-    title: "Software Engineer II",
-    company: "Because",
-    period: "June 2024 – Present",
-    achievements: [
-      "Shipped 100+ bug fixes and change requests, reducing QA turnaround by 40%",
-      "Led development of Shopify Data Integration, replacing third-party tools",
-      "Built Grafana dashboards for key metrics",
-      "Reduced frontend load times by 35% via optimizations",
-      "Optimized ClickHouse queries, reducing dashboard load times by 60%",
-      "Enhanced backend ingestion with Go workers, doubling detection speed",
-    ],
-    technologies: [
-      "React",
-      "TypeScript",
-      "Python",
-      "Go",
-      "PostgreSQL",
-      "ClickHouse",
-      "Grafana",
-      "Docker",
-    ],
-  },
-  {
-    title: "Software Engineer I",
-    company: "Because",
-    period: "March 2022 – June 2024",
-    achievements: [
-      "Closed 250+ tickets across frontend and backend",
-      'Delivered high-impact features like "auto-pause" used in 85% of A/B tests',
-      "Redesigned badge system, improving rendering stability by 40%",
-      "Built features reducing CS setup tickets by 25%",
-      "Debugged Shopify API syncing issues during peak demand",
-    ],
-    technologies: [
-      "React",
-      "JavaScript",
-      "Python",
-      "Flask",
-      "Shopify APIs",
-      "HTML/CSS",
-    ],
-  },
-  {
-    title: "Frontend Engineer",
-    company: "Because",
-    period: "November 2021 – March 2022",
-    achievements: [
-      "Joined the team as a frontend specialist",
-      "Contributed to existing React-based applications",
-      "Learned the product domain and technical stack",
-      "Established foundation for full-stack development",
-    ],
-    technologies: ["React", "JavaScript", "HTML/CSS", "Shopify APIs"],
-  },
-];
+import { experiences } from "@/content/experiences";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -131,12 +66,12 @@ export default function ExperiencePage() {
                   ))}
                 </ul>
                 <div className="mt-4 flex flex-wrap gap-2">
-                  {experience.technologies.map((tech) => (
+                  {experience.skills.map((skill) => (
                     <span
-                      key={tech}
+                      key={skill}
                       className="rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-800 dark:text-gray-200"
                     >
-                      {tech}
+                      {skill}
                     </span>
                   ))}
                 </div>

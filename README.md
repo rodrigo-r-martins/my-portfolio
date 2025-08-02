@@ -14,7 +14,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:rodrigo-r-martins/my-portfolio.git
 cd my-portfolio
 ```
 
@@ -38,10 +38,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 src/
 ├── app/              # Next.js app router pages
 ├── components/       # Reusable React components
-├── content/         # Content files (MDX and data)
-│   ├── experience/  # Experience/resume content
-│   ├── projects/    # Project descriptions
-│   └── projects.ts  # Project metadata
+│   ├── icons/       # SVG icon components
+│   └── layout/      # Layout components (Navbar, Footer)
+├── content/         # Content and data files
+│   ├── about.ts     # About page content and social links
+│   └── projects.ts  # Projects data and technologies
 └── utils/           # Utility functions
 ```
 
@@ -49,9 +50,7 @@ src/
 
 ### Projects
 
-To add or update projects, modify the following files:
-
-1. Edit `src/content/projects.ts` to update project metadata:
+To add or update projects, modify `src/content/projects.ts`:
 
 ```typescript
 export const projects: Project[] = [
@@ -65,32 +64,40 @@ export const projects: Project[] = [
   },
   // Add more projects...
 ];
+
+// Technology fields used across the site
+export const technologiesFields = {
+  frontend: ["React", "Next.js", ...],
+  backend: ["Node.js", "Python", ...],
+  database: ["PostgreSQL", "MongoDB", ...],
+  devOps: ["Docker", "AWS", ...],
+};
 ```
 
-2. Create/edit project MDX files in `src/content/projects/` using the same slug:
-   - Create a new file: `[project-slug].mdx`
-   - Add detailed project information using MDX format
+### About Page Content
 
-### Experience
+Update your personal information and social links by editing `src/content/about.ts`:
 
-Update your professional experience by editing:
+1. Personal Information:
 
-1. MDX files in `src/content/experience/`:
-   - Each file represents a different role or time period
-   - Use markdown formatting for content structure
-   - Include sections like:
-     - Role and duration
-     - Key achievements
-     - Technologies used
+   - Story and background
+   - Work philosophy
+   - Technical focus areas
+   - Fun facts
+
+2. Social Links:
+   - GitHub, LinkedIn, Email
+   - Links and descriptions
+   - Social media icons
 
 ## Development
 
 The project uses:
 
 - [Next.js](https://nextjs.org/) - React framework
-- [MDX](https://mdxjs.com/) - For content management
 - [Tailwind CSS](https://tailwindcss.com/) - For styling
 - [TypeScript](https://www.typescriptlang.org/) - For type safety
+- [Framer Motion](https://www.framer.com/motion/) - For animations
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 

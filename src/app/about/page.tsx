@@ -1,5 +1,6 @@
 "use client";
 
+import { aboutContent, funFacts } from "@/content/about";
 import { motion } from "framer-motion";
 
 const fadeInUp = {
@@ -8,36 +9,16 @@ const fadeInUp = {
   transition: { duration: 0.5 },
 };
 
-const funFacts = [
-  {
-    emoji: "🌎",
-    fact: "Based in São Paulo, Brazil",
-  },
-  {
-    emoji: "💻",
-    fact: "Started coding at age 15",
-  },
-  {
-    emoji: "📚",
-    fact: "Lifelong learner, currently exploring AI/ML",
-  },
-  {
-    emoji: "🎮",
-    fact: "Avid gamer and tech enthusiast",
-  },
-];
-
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-3xl">
         <div className="space-y-4 text-center">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-            About Me
+            {aboutContent.title}
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            Frontend-Focused Full Stack Engineer passionate about building
-            exceptional digital experiences.
+            {aboutContent.description}
           </p>
         </div>
 
@@ -51,20 +32,10 @@ export default function AboutPage() {
             variants={fadeInUp}
             className="prose prose-gray mx-auto dark:prose-invert"
           >
-            <h2>My Story</h2>
-            <p>
-              I&apos;m a software engineer with a passion for creating elegant
-              solutions to complex problems. My journey in tech began with
-              simple HTML websites and has evolved into building sophisticated
-              full-stack applications that serve thousands of users.
-            </p>
-            <p>
-              At Because, I&apos;ve had the opportunity to work on challenging
-              projects that have significantly improved our data analytics and
-              e-commerce capabilities. I take pride in writing clean,
-              maintainable code and building features that make a real impact on
-              user experience.
-            </p>
+            <h2>{aboutContent.story.title}</h2>
+            {aboutContent.story.paragraphs.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
           </motion.section>
 
           {/* Work Philosophy */}
@@ -72,24 +43,14 @@ export default function AboutPage() {
             variants={fadeInUp}
             className="prose prose-gray mx-auto dark:prose-invert"
           >
-            <h2>Work Philosophy</h2>
-            <p>
-              I believe in the power of collaboration and continuous learning.
-              My approach to development focuses on three key principles:
-            </p>
+            <h2>{aboutContent.workPhilosophy.title}</h2>
+            <p>{aboutContent.workPhilosophy.introduction}</p>
             <ul>
-              <li>
-                Writing clean, maintainable code that others can easily
-                understand and build upon
-              </li>
-              <li>
-                Taking ownership of projects and seeing them through from
-                conception to deployment
-              </li>
-              <li>
-                Staying current with industry best practices and emerging
-                technologies
-              </li>
+              {aboutContent.workPhilosophy.principles.map(
+                (principle, index) => (
+                  <li key={index}>{principle}</li>
+                )
+              )}
             </ul>
           </motion.section>
 
@@ -98,16 +59,25 @@ export default function AboutPage() {
             variants={fadeInUp}
             className="prose prose-gray mx-auto dark:prose-invert"
           >
-            <h2>Technical Focus</h2>
-            <p>
-              My expertise lies in modern web technologies, with a particular
-              focus on:
-            </p>
+            <h2>{aboutContent.technicalFocus.title}</h2>
+            <p>{aboutContent.technicalFocus.introduction}</p>
             <ul>
-              <li>Frontend Development: React, TypeScript, Next.js</li>
-              <li>Backend Systems: Python, Go, Node.js</li>
-              <li>Data & Analytics: PostgreSQL, ClickHouse, Grafana</li>
-              <li>DevOps & Tools: Docker, Git, CI/CD</li>
+              <li>
+                Frontend Development:{" "}
+                {aboutContent.technicalFocus.skills.frontend.join(", ")}
+              </li>
+              <li>
+                Backend Systems:{" "}
+                {aboutContent.technicalFocus.skills.backend.join(", ")}
+              </li>
+              <li>
+                Data & Analytics:{" "}
+                {aboutContent.technicalFocus.skills.database.join(", ")}
+              </li>
+              <li>
+                DevOps & Tools:{" "}
+                {aboutContent.technicalFocus.skills.devOps.join(", ")}
+              </li>
             </ul>
           </motion.section>
 
