@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { socialLinks } from "@/components/layout/Footer";
+import { socialLinks } from "@/content/about";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
