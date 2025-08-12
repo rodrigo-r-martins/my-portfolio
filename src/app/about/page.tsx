@@ -33,8 +33,8 @@ export default function AboutPage() {
             className="prose prose-gray mx-auto dark:prose-invert"
           >
             <h2>{aboutContent.story.title}</h2>
-            {aboutContent.story.paragraphs.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
+            {aboutContent.story.paragraphs.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
             ))}
           </motion.section>
 
@@ -46,11 +46,9 @@ export default function AboutPage() {
             <h2>{aboutContent.workPhilosophy.title}</h2>
             <p>{aboutContent.workPhilosophy.introduction}</p>
             <ul>
-              {aboutContent.workPhilosophy.principles.map(
-                (principle, index) => (
-                  <li key={index}>{principle}</li>
-                )
-              )}
+              {aboutContent.workPhilosophy.principles.map((principle) => (
+                <li key={principle}>{principle}</li>
+              ))}
             </ul>
           </motion.section>
 

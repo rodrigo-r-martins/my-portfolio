@@ -21,7 +21,10 @@ export function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="fixed top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-lg dark:border-gray-800 dark:bg-gray-950/80">
+    <nav
+      className="fixed top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-lg dark:border-gray-800 dark:bg-gray-950/80"
+      aria-label="Main navigation"
+    >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
@@ -61,6 +64,8 @@ export function Navbar() {
               type="button"
               className="inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-menu"
             >
               <span className="sr-only">Open main menu</span>
               {mobileMenuOpen ? (
@@ -74,7 +79,10 @@ export function Navbar() {
       </div>
 
       {/* Mobile Menu */}
-      <div className={cn("md:hidden", mobileMenuOpen ? "block" : "hidden")}>
+      <div
+        id="mobile-menu"
+        className={cn("md:hidden", mobileMenuOpen ? "block" : "hidden")}
+      >
         <div className="space-y-1 px-4 pb-3 pt-2">
           {navItems.map((item) => (
             <Link

@@ -1,11 +1,12 @@
 import { Inter } from "next/font/google";
+import type { Metadata } from "next";
 import { Navbar } from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Rodrigo Ribeiro Martins - Full Stack Engineer",
   description:
     "Full Stack Engineer with expertise in modern web technologies. Currently working on AI-driven e-commerce solutions.",
@@ -47,11 +48,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta name="keywords" content={metadata.keywords.join(", ")} />
-      </head>
       <body
         className={`${inter.className} flex min-h-screen flex-col bg-white text-gray-900 antialiased dark:bg-gray-950 dark:text-gray-50`}
       >
