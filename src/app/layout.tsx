@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import { Navbar } from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import dynamic from "next/dynamic";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -46,6 +47,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const ChatWidget = dynamic(() => import("@/components/ChatWidget"), {
+    ssr: false,
+  });
   return (
     <html lang="en" suppressHydrationWarning>
       <body
@@ -54,6 +58,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1 pt-16">{children}</main>
         <Footer />
+        <ChatWidget />
       </body>
     </html>
   );
