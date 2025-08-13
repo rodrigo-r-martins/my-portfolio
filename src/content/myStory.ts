@@ -3,25 +3,27 @@ export const myStory = `
 
 ## Early Life and Education in Brazil
 
-Rodrigo Ribeiro Martins was born in Rio de Janeiro, Brazil, a vibrant city known for its beaches, culture, and passionate football fans. From an early age, Rodrigo showed exceptional academic promise and determination. In a remarkable achievement that would set the tone for his ambitious nature, he started law school at just 16 years old and graduated at 22, completing his legal education in what would typically take others much longer.
+Rodrigo Ribeiro Martins was born in Rio de Janeiro, Brazil, a vibrant city known for its beaches, culture, and passionate soccer fans. From an early age, Rodrigo showed exceptional academic promise and determination. In a remarkable achievement that would set the tone for his ambitious nature, he started law school at just 16 years old and graduated at 22, completing his legal education in what would typically take others much longer.
 
-Growing up in Rio, Rodrigo developed a deep love for soccer (football), becoming a devoted Vasco da Gama supporter. This passion for the sport extended beyond just watching - he became a recreational soccer player himself, a hobby he continues to enjoy today. His competitive spirit also manifested in the digital realm, where he played Counter-Strike competitively in small local leagues, showcasing his strategic thinking and teamwork skills that would later prove valuable in his professional career.
+Growing up in Rio, Rodrigo developed a deep love for soccer (football), becoming a devoted Vasco da Gama supporter. This passion for the sport extended beyond just watching - he became a recreational soccer player himself, a hobby he continues to enjoy today. His competitive spirit also manifested in the digital realm, where he played Counter-Strike competitively in small local leagues, showcasing his strategic thinking and teamwork skills that would later prove valuable in his professional career. Music has always been a significant part of his life, with a particular passion for rock music that continues to inspire and energize him throughout his daily activities and creative work.
 
 ## The Legal Years: Building a Foundation
 
 After graduating from law school, Rodrigo embarked on a successful legal career that would span over a decade. From June 2008 to September 2018, he worked as a lawyer at the 13th Notary Public Office (13 Oficio de Notas do Rio de Janeiro), where he honed his analytical skills, attention to detail, and client management abilities.
 
-During his 10+ years in law, Rodrigo managed a diverse caseload of over 50 clients, including both individuals and businesses. His work involved extensive legal research, drafting of legal documents, and providing comprehensive legal advice. This experience taught him the importance of precision, thorough documentation, and clear communication - skills that would prove invaluable in his future tech career.
+During his 10+ years in law, Rodrigo managed a diverse caseload of over 50 clients, including both individuals and businesses. He specialized in real estate law, divorce proceedings, and will processes. His work involved extensive legal research, drafting of legal documents, and providing comprehensive legal advice. This experience taught him the importance of precision, thorough documentation, and clear communication - skills that would prove invaluable in his future tech career.
 
 ## Personal Growth and New Beginnings
 
-In 2016, Rodrigo's personal life took a significant turn when he got married. This milestone marked the beginning of a new chapter filled with love and partnership. His family continued to grow with the birth of his first daughter in 2020, followed by a second daughter in 2024, making him a proud father of two.
+In 2016, Rodrigo's personal life took a significant turn when he got married. This milestone marked the beginning of a new chapter filled with love and partnership.
 
 The year 2018 brought another major life change when Rodrigo made the bold decision to move from Brazil to the United States. He settled in Ridgefield, Connecticut, a decision that would open new doors and opportunities. This international move demonstrated his adaptability and willingness to embrace change - qualities that would serve him well in his career transition.
 
+His family continued to grow with the birth of his first daughter in 2020, followed by a second daughter in 2024, bringing immense joy and fulfillment to his life as a devoted father of two.
+
 ## The Spark of Technology
 
-While still practicing law, Rodrigo began exploring the world of technology. In 2019, at the age of 33, he started coding - a decision that would completely transform his career trajectory. What began as curiosity about technology quickly evolved into a passion for creating digital solutions.
+While still practicing law, Rodrigo always had a passion for technology and began exploring the programming world. In 2019, at the age of 33, he started a master degree in Computer Sciente and fell in love with coding - which would completely transform his career trajectory. What began as curiosity about technology quickly evolved into a passion for creating digital solutions.
 
 His journey into programming started with simple HTML websites, but his natural aptitude for logical thinking and problem-solving, honed during his legal career, made him a quick learner. He immersed himself in learning modern web technologies, understanding that the digital world offered endless possibilities for innovation and impact.
 
@@ -133,7 +135,7 @@ His portfolio includes several notable projects available for demonstration:
 
 ## The Continuing Journey
 
-Rodrigo's story is far from over. As he continues to explore AI and machine learning technologies, build innovative e-commerce solutions, and mentor others in their own career transitions, he remains committed to the principles that have guided his success: continuous learning, taking ownership, and building solutions that make a real impact on users' lives.
+Rodrigo's story is far from over. As he continues to explore AI and machine learning technologies, and build innovative e-commerce solutions, he remains committed to the principles that have guided his success: continuous learning, taking ownership, and building solutions that make a real impact on users' lives.
 
 His journey from a 16-year-old law student in Rio de Janeiro to a Software Engineer II building AI-powered platforms in Connecticut is a testament to the power of curiosity, determination, and the willingness to embrace change. Whether he's optimizing ClickHouse queries, building Grafana dashboards, or spending time with his family, Rodrigo approaches each challenge with the same thoughtful, analytical mindset that has defined his success across two very different professional domains.
 

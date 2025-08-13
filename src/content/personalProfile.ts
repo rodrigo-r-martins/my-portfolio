@@ -44,6 +44,7 @@ export const personalProfile: PersonalProfile = {
     "Completed a photography course in Brazil",
     "Avid reader across thriller, fiction, action, and technology",
     "Tech enthusiast and early adopter",
+    "Loves rock music. Fa of Slipknot (and Corey Taylor solo), Avenged Sevenfold, Pearl Jam, Foo Fighters, and others",
   ],
   certification: [
     {
