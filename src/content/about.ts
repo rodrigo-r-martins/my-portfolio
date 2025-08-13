@@ -37,7 +37,7 @@ export const funFacts: { emoji: string; fact: string }[] = [
   },
   {
     emoji: "⚖️",
-    fact: "Worked as a lawyer for 10 years",
+    fact: "Worked as a lawyer for 10+ years",
   },
   {
     emoji: "🇺🇸",

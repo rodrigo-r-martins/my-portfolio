@@ -9,7 +9,7 @@ interface Experience {
 export const experiences: Experience[] = [
   {
     title: "Software Engineer II",
-    company: "Because",
+    company: "Because Intelligence",
     period: "June 2024 – Present",
     achievements: [
       "Shipped 100+ bug fixes and change requests, reducing QA turnaround by 40%",
@@ -32,7 +32,7 @@ export const experiences: Experience[] = [
   },
   {
     title: "Software Engineer I",
-    company: "Because",
+    company: "Because Intelligence",
     period: "March 2022 – June 2024",
     achievements: [
       "Closed 250+ tickets across frontend and backend",
@@ -52,7 +52,7 @@ export const experiences: Experience[] = [
   },
   {
     title: "Frontend Engineer",
-    company: "Because",
+    company: "Because Intelligence",
     period: "November 2021 – March 2022",
     achievements: [
       "Joined the team as a frontend specialist",
@@ -81,6 +81,7 @@ export const experiences: Experience[] = [
       "Performed legal research and drafting of legal documents",
       "Provided legal advice to clients",
       "Managed a caseload of 50+ clients, including individuals and businesses",
+      "Specialized in real estate law, divorce proceedings, and will processes",
     ],
     skills: ["Legal Research", "Legal Writing", "Client Management"],
   },
