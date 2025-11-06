@@ -18,7 +18,7 @@ export default function Home() {
         >
           <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
             Hi, I'm{" "}
-            <span className="bg-gradient-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-silver-tree-600 to-silver-tree-500 bg-clip-text text-transparent">
               Rodrigo Ribeiro Martins
             </span>
           </h1>
@@ -29,7 +29,7 @@ export default function Home() {
           <div className="mt-10 flex gap-4">
             <Link
               href="/projects"
-              className="rounded-lg bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200"
+              className="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-silver-tree-600 dark:bg-silver-tree-500 dark:hover:bg-silver-tree-400"
             >
               View My Projects
             </Link>
@@ -60,7 +60,7 @@ export default function Home() {
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: index * 0.1 }}
-                  className="rounded-full bg-gray-100 px-4 py-2 text-sm font-medium text-gray-900 dark:bg-gray-800 dark:text-white"
+                  className="rounded-full bg-silver-tree-100 px-4 py-2 text-sm font-medium text-silver-tree-800 dark:bg-silver-tree-900 dark:text-silver-tree-200"
                 >
                   {tech}
                 </motion.span>
@@ -93,7 +93,7 @@ export default function Home() {
         <div className="mt-12 text-center">
           <Link
             href="/projects"
-            className="rounded-lg bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200"
+            className="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-silver-tree-600 dark:bg-silver-tree-500 dark:hover:bg-silver-tree-400"
           >
             View All Projects
           </Link>

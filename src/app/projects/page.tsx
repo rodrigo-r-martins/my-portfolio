@@ -50,7 +50,7 @@ export default function ProjectsPage() {
                 {project.technologies.map((tech) => (
                   <span
                     key={tech}
-                    className="rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-800 dark:text-gray-200"
+                    className="rounded-full bg-silver-tree-100 px-2.5 py-0.5 text-xs font-medium text-silver-tree-800 dark:bg-silver-tree-900 dark:text-silver-tree-200"
                   >
                     {tech}
                   </span>
@@ -62,7 +62,7 @@ export default function ProjectsPage() {
                     href={project.demoUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm font-medium text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300"
+                    className="text-sm font-medium text-primary hover:text-silver-tree-600 dark:text-silver-tree-400 dark:hover:text-silver-tree-300"
                   >
                     View Demo →
                   </a>

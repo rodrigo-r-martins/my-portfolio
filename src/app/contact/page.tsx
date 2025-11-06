@@ -35,9 +35,9 @@ export default function ContactPage() {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-4 rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:bg-gray-50 dark:border-gray-800 dark:bg-gray-900 dark:hover:bg-gray-800"
+                className="group flex items-center gap-4 rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:bg-silver-tree-50 hover:border-silver-tree-200 dark:border-gray-800 dark:bg-gray-900 dark:hover:bg-silver-tree-950 dark:hover:border-silver-tree-800"
               >
-                <link.icon className="h-6 w-6 text-gray-600 dark:text-gray-400" />
+                <link.icon className="h-6 w-6 text-gray-600 transition-colors group-hover:text-primary dark:text-gray-400 dark:group-hover:text-silver-tree-400" />
                 <div>
                   <div className="font-medium text-gray-900 dark:text-white">
                     {link.name}

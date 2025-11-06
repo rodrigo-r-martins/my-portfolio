@@ -11,6 +11,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        'silver-tree': {
+          '50': '#f1f8f4',
+          '100': '#dcefe3',
+          '200': '#bcdecb',
+          '300': '#8fc6ab',
+          '400': '#60a787',
+          '500': '#3f8a6b',
+          '600': '#2d6e54',
+          '700': '#245845',
+          '800': '#1f4638',
+          '900': '#1a3a2f',
+          '950': '#0e201a',
+        },
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',

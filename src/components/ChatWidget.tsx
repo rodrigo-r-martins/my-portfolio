@@ -118,7 +118,7 @@ export default function ChatWidget() {
       {!isOpen ? (
         <button
           onClick={() => setIsOpen(true)}
-          className="flex items-center gap-2 rounded-full bg-blue-600 px-4 py-2 text-white shadow-lg hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600"
+          className="flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-primary-foreground shadow-lg hover:bg-silver-tree-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary dark:hover:bg-silver-tree-500"
           aria-label="Open AI chat"
         >
           <ChatBubbleLeftRightIcon className="h-5 w-5" />
@@ -144,7 +144,7 @@ export default function ChatWidget() {
             className="flex-1 space-y-2 overflow-y-auto p-3"
           >
             {messages.length === 0 && !isChatDisabled && (
-              <div className="rounded-md bg-blue-50 p-3 text-xs text-blue-700 dark:bg-blue-950 dark:text-blue-200">
+              <div className="rounded-md bg-silver-tree-50 p-3 text-xs text-silver-tree-700 dark:bg-silver-tree-950 dark:text-silver-tree-200">
                 Ask anything about me, such as: my experience, projects, fun
                 facts, personal life, interests, etc. This chat will only
                 answers questions about me 🙃.
@@ -172,7 +172,7 @@ export default function ChatWidget() {
                   className={
                     "inline-block max-w-[80%] whitespace-pre-wrap rounded-lg px-3 py-2 text-sm " +
                     (m.role === "user"
-                      ? "bg-blue-600 text-white"
+                      ? "bg-primary text-primary-foreground"
                       : "bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-100")
                   }
                 >
@@ -198,13 +198,13 @@ export default function ChatWidget() {
                   isChatDisabled ? "Chat disabled" : "Ask any question about me"
                 }
                 disabled={isLoading || isChatDisabled}
-                className="flex-1 rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-blue-500 focus:outline-none disabled:bg-gray-100 disabled:text-gray-500 dark:border-gray-700 dark:bg-gray-900 dark:disabled:bg-gray-800"
+                className="flex-1 rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary disabled:bg-gray-100 disabled:text-gray-500 dark:border-gray-700 dark:bg-gray-900 dark:disabled:bg-gray-800"
                 aria-label="Your question"
               />
               <button
                 type="submit"
                 disabled={isLoading || !input.trim() || isChatDisabled}
-                className="inline-flex items-center justify-center rounded-md bg-blue-600 px-3 py-2 text-white hover:bg-blue-500 disabled:opacity-50"
+                className="inline-flex items-center justify-center rounded-md bg-primary px-3 py-2 text-primary-foreground hover:bg-silver-tree-600 disabled:opacity-50 dark:hover:bg-silver-tree-500"
                 aria-disabled={isLoading || !input.trim() || isChatDisabled}
               >
                 {isLoading ? (

@@ -43,7 +43,7 @@ export default function ExperiencePage() {
           >
             {/* Timeline connector */}
             {index !== experiences.length - 1 && (
-              <div className="absolute bottom-0 left-8 top-full w-0.5 bg-gray-200 dark:bg-gray-800" />
+              <div className="absolute bottom-0 left-8 top-full w-0.5 bg-silver-tree-200 dark:bg-silver-tree-800" />
             )}
 
             <div className="flex flex-col gap-4 sm:flex-row sm:gap-8">
@@ -69,7 +69,7 @@ export default function ExperiencePage() {
                   {experience.skills.map((skill) => (
                     <span
                       key={skill}
-                      className="rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-800 dark:text-gray-200"
+                      className="rounded-full bg-silver-tree-100 px-2.5 py-0.5 text-xs font-medium text-silver-tree-800 dark:bg-silver-tree-900 dark:text-silver-tree-200"
                     >
                       {skill}
                     </span>
