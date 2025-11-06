@@ -14,11 +14,11 @@ export const projects: Project[] = [
     title: "AI-Driven Product Visibility Optimization",
     slug: "llm-visibility-optimization",
     description:
-      "Building an AI-powered platform to help merchants assess and enhance their product visibility in Large Language Models (LLMs). The project focuses on optimizing product metadata, analyzing visibility metrics, and providing actionable recommendations to boost discoverability in AI-driven commerce.",
+      "Building an AI-powered platform to help merchants assess and enhance their product visibility in Large Language Models (LLMs). The project focuses on optimizing product metadata, analyzing visibility metrics, and converting e-commerce pages into structured, LLM-optimized markdown for AI search and discovery to boost discoverability in AI-driven commerce.",
     summary:
       "AI-powered platform to optimize and boost product visibility in LLM-driven commerce.",
     isFeatured: true,
-    technologies: ["Node.js", "TypeScript", "PostgreSQL", "Grafana", "OpenAI"],
+    technologies: ["Node.js", "TypeScript", "PostgreSQL", "Grafana", "OpenAI API"],
   },
   {
     title: "AI Personal Assistant Chat Bot",
@@ -104,12 +104,13 @@ export const technologiesFields = {
     "Next.js",
     "Tailwind CSS",
     "Redux",
+    "Zustand",
     "Ionic",
     "Angular",
   ],
-  backend: ["Python", "Flask", "Go", "Node.js", "Express.js", "REST APIs"],
-  database: ["PostgreSQL", "ClickHouse", "MongoDB", "Firebase", "Grafana"],
-  devOps: ["Docker", "Git", "AWS"],
+  backend: ["Python", "Flask", "Go", "Node.js", "Hono", "Express.js", "REST APIs"],
+  database: ["PostgreSQL", "ClickHouse", "MongoDB", "Firebase", "Grafana", "Upstash"],
+  devOps: ["Docker", "Git", "AWS", "GA4 Integration"],
   ecommerce: ["Shopify API", "Shopify App Store", "Shopify Theme"],
-  ai: ["OpenAI"],
+  ai: ["OpenAI API", "Google AI SDK"],
 };

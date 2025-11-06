@@ -8,6 +8,30 @@ interface Experience {
 
 export const experiences: Experience[] = [
   {
+    title: "Founder Engineer (Contract)",
+    company: "Bubblegum",
+    period: "Jun 2025 – Nov 2025",
+    achievements: [
+      "Developed a full-stack SaaS platform converting e-commerce pages into structured, LLM-optimized markdown for AI search and discovery",
+      "Engineered Hono/Node.js API integrating OpenAI and Google Gemini for content cleaning, structuring, and enhancement",
+      "Implemented asynchronous workflow orchestration (Upstash Workflows) and web scraping (Firecrawl) for reliable, end-to-end content processing",
+      "Built modern dashboard with React/TanStack Router (SSR), real-time monitoring (Supabase Realtime), and advanced analytics (GA4, Recharts)",
+    ],
+    skills: [
+      "React",
+      "TanStack Router",
+      "TypeScript",
+      "Zustand",
+      "Node.js",
+      "Hono",
+      "OpenAI API",
+      "Google AI SDK",
+      "GA4 Integration",
+      "PostgreSQL",
+      "Upstash",
+    ],
+  },
+  {
     title: "Software Engineer II",
     company: "Because Intelligence",
     period: "June 2024 – Present",

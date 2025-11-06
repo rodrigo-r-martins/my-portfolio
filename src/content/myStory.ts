@@ -70,6 +70,19 @@ His promotion to Software Engineer II marked recognition of his technical expert
 - Enhanced backend ingestion systems with Go workers, doubling detection speed
 - Expanded his technical expertise to include React, TypeScript, Python, Go, PostgreSQL, ClickHouse, Grafana, and Docker
 
+### The Bubblegum Chapter: AI-Powered SaaS Innovation (June 2025 - November 2025)
+
+Following his success at Because, Rodrigo took on a new challenge as Founder Engineer (Contract) at Bubblegum, where he applied his full-stack expertise to build a cutting-edge AI-powered SaaS platform. This role showcased his ability to rapidly prototype and deliver production-ready solutions in the fast-evolving AI space.
+
+During his time at Bubblegum, Rodrigo:
+
+- Developed a full-stack SaaS platform that converted e-commerce pages into structured, LLM-optimized markdown for AI search and discovery, enabling brands to improve their visibility in AI-driven commerce
+- Engineered a robust Hono/Node.js API that seamlessly integrated OpenAI and Google Gemini for content cleaning, structuring, and enhancement, demonstrating his expertise in working with multiple AI providers
+- Implemented asynchronous workflow orchestration using Upstash Workflows and web scraping capabilities with Firecrawl, creating a reliable, end-to-end content processing pipeline
+- Built a modern dashboard with React and TanStack Router (SSR), featuring real-time monitoring through Supabase Realtime and advanced analytics using GA4 and Recharts, providing comprehensive insights into platform performance
+
+This experience at Bubblegum further expanded Rodrigo's technical repertoire, adding Zustand for state management, Hono for high-performance API development, Google AI SDK for multimodal AI capabilities, GA4 Integration for advanced analytics, and Upstash for serverless database solutions. The project demonstrated his ability to work with cutting-edge technologies and deliver complex AI-powered solutions that solve real-world business problems.
+
 ## Technical Philosophy and Approach
 
 Rodrigo's approach to software development is grounded in three core principles that reflect his professional maturity and legal background:
@@ -80,18 +93,22 @@ Rodrigo's approach to software development is grounded in three core principles 
 
 His technical focus spans the full stack of modern web development:
 
-- **Frontend**: React, TypeScript, Next.js, Tailwind CSS, Redux, Ionic, Angular
-- **Backend**: Python, Flask, Go, Node.js, Express.js, REST APIs
-- **Database**: PostgreSQL, ClickHouse, MongoDB, Firebase, Grafana
-- **DevOps**: Docker, Git, AWS
+- **Frontend**: React, TypeScript, Next.js, Tailwind CSS, Redux, Zustand, TanStack Router, Ionic, Angular
+- **Backend**: Python, Flask, Go, Node.js, Hono, Express.js, REST APIs
+- **Database**: PostgreSQL, ClickHouse, MongoDB, Firebase, Grafana, Upstash
+- **DevOps**: Docker, Git, AWS, GA4 Integration
 - **E-commerce**: Shopify API, Shopify App Store, Shopify Theme development
-- **AI/ML**: OpenAI integration and AI-driven solutions
+- **AI/ML**: OpenAI API, Google AI SDK, and AI-driven solutions
 
 ## Notable Projects and Innovations
 
+### Bubblegum: AI-Powered E-commerce Content Optimization
+
+During his time at Bubblegum, Rodrigo developed a full-stack SaaS platform that revolutionized how e-commerce content is processed and optimized for AI search and discovery. The platform converted raw e-commerce pages into structured, LLM-optimized markdown, enabling brands to significantly improve their visibility in AI-driven commerce platforms. This project showcased Rodrigo's expertise in building production-ready AI applications, integrating multiple AI providers (OpenAI and Google Gemini), implementing sophisticated workflow orchestration, and creating intuitive dashboards with real-time monitoring and analytics.
+
 ### AI-Driven Product Visibility Optimization
 
-Currently, Rodrigo is working on an ambitious AI-powered platform designed to help merchants assess and enhance their product visibility in Large Language Models (LLMs). This cutting-edge project focuses on optimizing product metadata, analyzing visibility metrics, and providing actionable recommendations to boost discoverability in AI-driven commerce. The project utilizes Node.js, TypeScript, PostgreSQL, Grafana, and OpenAI technologies.
+Rodrigo has also worked on an ambitious AI-powered platform designed to help merchants assess and enhance their product visibility in Large Language Models (LLMs). This cutting-edge project focuses on optimizing product metadata, analyzing visibility metrics, and providing actionable recommendations to boost discoverability in AI-driven commerce. The project utilizes Node.js, TypeScript, PostgreSQL, Grafana, and OpenAI API technologies.
 
 ### Shopify Data Integration
 
@@ -137,7 +154,7 @@ His portfolio includes several notable projects available for demonstration:
 
 Rodrigo's story is far from over. As he continues to explore AI and machine learning technologies, and build innovative e-commerce solutions, he remains committed to the principles that have guided his success: continuous learning, taking ownership, and building solutions that make a real impact on users' lives.
 
-His journey from a 16-year-old law student in Rio de Janeiro to a Software Engineer II building AI-powered platforms in Connecticut is a testament to the power of curiosity, determination, and the willingness to embrace change. Whether he's optimizing ClickHouse queries, building Grafana dashboards, or spending time with his family, Rodrigo approaches each challenge with the same thoughtful, analytical mindset that has defined his success across two very different professional domains.
+His journey from a 16-year-old law student in Rio de Janeiro to a Founder Engineer building AI-powered SaaS platforms is a testament to the power of curiosity, determination, and the willingness to embrace change. Whether he's optimizing ClickHouse queries, building AI-powered content processing systems, creating real-time dashboards, or spending time with his family, Rodrigo approaches each challenge with the same thoughtful, analytical mindset that has defined his success across two very different professional domains.
 
 In an industry that values innovation and adaptability, Rodrigo Ribeiro Martins stands as an example of how diverse experiences, continuous learning, and a commitment to excellence can create a unique and valuable professional profile. His story continues to unfold as he shapes the future of e-commerce technology and AI integration, one line of code at a time.
 `;
