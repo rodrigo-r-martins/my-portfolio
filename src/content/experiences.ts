@@ -8,7 +8,7 @@ interface Experience {
 
 export const experiences: Experience[] = [
   {
-    title: "Founder Engineer (Contract)",
+    title: "Founding Engineer (Contract)",
     company: "Bubblegum",
     period: "Jun 2025 – Nov 2025",
     achievements: [

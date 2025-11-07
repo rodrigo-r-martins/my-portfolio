@@ -72,7 +72,7 @@ His promotion to Software Engineer II marked recognition of his technical expert
 
 ### The Bubblegum Chapter: AI-Powered SaaS Innovation (June 2025 - November 2025)
 
-Following his success at Because, Rodrigo took on a new challenge as Founder Engineer (Contract) at Bubblegum, where he applied his full-stack expertise to build a cutting-edge AI-powered SaaS platform. This role showcased his ability to rapidly prototype and deliver production-ready solutions in the fast-evolving AI space.
+Following his success at Because, Rodrigo took on a new challenge as Founding Engineer (Contract) at Bubblegum, where he applied his full-stack expertise to build a cutting-edge AI-powered SaaS platform. This role showcased his ability to rapidly prototype and deliver production-ready solutions in the fast-evolving AI space.
 
 During his time at Bubblegum, Rodrigo:
 
