@@ -85,7 +85,7 @@ export const aboutContent: {
   story: {
     title: "My Story",
     paragraphs: [
-      "I'm a software engineer with a passion for creating elegant solutions to complex problems. My journey in tech began with simple HTML websites and has evolved into building sophisticated full-stack applications that serve thousands of users.",
+      "I'm a full-stack engineer with a passion for creating elegant solutions to complex problems. My journey in tech began with simple HTML websites and has evolved into building sophisticated full-stack applications that serve thousands of users.",
       "At Because, I've had the opportunity to work on challenging projects that have significantly improved our data analytics and e-commerce capabilities. I take pride in writing clean, maintainable code and building features that make a real impact on user experience.",
     ],
   },
