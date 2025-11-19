@@ -32,7 +32,7 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    title: "Founding Engineer",
+    title: "Full Stack Engineer II",
     company: "Because Intelligence",
     period: "June 2024 – Present",
     achievements: [
@@ -55,7 +55,7 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    title: "Software Engineer I",
+    title: "Full Stack Engineer I",
     company: "Because Intelligence",
     period: "March 2022 – June 2024",
     achievements: [

@@ -117,6 +117,7 @@ export default function ChatWidget() {
     <div className="fixed bottom-4 right-4 z-50">
       {!isOpen ? (
         <button
+          id="open-chat-widget"
           onClick={() => setIsOpen(true)}
           className="flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-primary-foreground shadow-lg hover:bg-silver-tree-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary dark:hover:bg-silver-tree-500"
           aria-label="Open AI chat"
@@ -131,6 +132,7 @@ export default function ChatWidget() {
               Chat with Rodrigo's Personal AI
             </div>
             <button
+              id="close-chat-widget"
               onClick={() => setIsOpen(false)}
               aria-label="Close chat"
               className="rounded p-1 text-gray-500 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800"

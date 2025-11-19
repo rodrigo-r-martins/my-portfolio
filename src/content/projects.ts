@@ -37,6 +37,25 @@ export const projects: Project[] = [
     ],
   },
   {
+    title: "URL Shortner",
+    slug: "url-shortner",
+    description: "A full-stack URL shortening service that converts long URLs into short, shareable links. Features cryptographically secure short code generation, duplicate detection to reuse existing short URLs, fast redirects, and a responsive UI. Built with a scalable architecture supporting high traffic with collision handling, health monitoring, and structured logging.",
+    summary: "Service that converts long URLs into short links",
+    isFeatured: false,
+    technologies: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Vercel",
+      "Hashids",
+      "TanStack React Query"
+    ],
+    demoUrl: "https://encurt.xyz",
+    githubUrl: "https://github.com/rodrigo-r-martins/url-shortner"
+  },
+  {
     title: "Shopify Data Integration",
     slug: "shopify-data-integration",
     description:
@@ -82,7 +101,6 @@ export const projects: Project[] = [
     summary: "A PWA built with Ionic framework for photo lovers.",
     isFeatured: false,
     technologies: ["Ionic", "Angular", "TypeScript", "Firebase", "REST APIs"],
-    demoUrl: "https://inspirepic-ionic.web.app/",
     githubUrl: "https://github.com/rodrigo-r-martins/inspire-pic",
   },
   {
