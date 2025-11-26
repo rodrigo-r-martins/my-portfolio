@@ -18,7 +18,7 @@ export const projects: Project[] = [
     summary:
       "AI-powered platform to optimize and boost product visibility in LLM-driven commerce.",
     isFeatured: true,
-    technologies: ["Node.js", "TypeScript", "PostgreSQL", "Grafana", "OpenAI API"],
+    technologies: ["Node.js", "TypeScript", "PostgreSQL", "Grafana", "OpenAI API", "Gemini", "Google OAuth", "Google Analytics 4", "Upstash"],
   },
   {
     title: "AI Personal Assistant Chat Bot",
@@ -59,13 +59,12 @@ export const projects: Project[] = [
     title: "Shopify Data Integration",
     slug: "shopify-data-integration",
     description:
-      "Led the development of a full-stack Shopify data integration system, reducing dependency on third-party tools and tripling analytics pipeline speed.",
+      "Led the Shopify Data Integration project, where I rebuilt the full ingestion pipeline to make it scalable, reliable, and real-time. The system digested incoming Shopify data on the server and pushed it into AWS SQS, where a fleet of Go workers consumed, validated, and transformed the payloads before loading them into ClickHouse. The database then updated optimized materialized views for fast analytics queries, and a rule-evaluation layer used the freshly processed data to determine which campaigns should appear on storefront pages. This redesign significantly improved performance, stability, and end-to-end visibility across the entire data flow.",
     summary:
       "Created a custom Shopify data integration solution to replace third-party tools.",
     isFeatured: true,
     technologies: [
       "Go",
-      "Python",
       "Shopify API",
       "PostgreSQL",
       "Docker",
@@ -87,10 +86,10 @@ export const projects: Project[] = [
     title: "Badge System Redesign",
     slug: "badge-system-redesign",
     description:
-      "Redesigned the badges campaign system logic which resolved 20+ long-standing bugs and improved badge rendering stability by 40% across enterprise storefronts.",
-    summary: "Fixed 20+ bugs and improved rendering stability by 40%.",
+      "Led the full redesign and rebuild of a critical, high-usage feature (the Badge System) that was causing stability issues for major enterprise customers. Researched Shopify API and replaced the old logic with a new solution that resolved the issues and delivered a significant, measurable improvement by increasing the feature's rendering stability on customer sites by 50%.",
+    summary: "Fixed 20+ bugs and improved rendering stability by 50%.",
     isFeatured: false,
-    technologies: ["React", "TypeScript", "Shopify API", "Node.js"],
+    technologies: ["React", "TypeScript", "Shopify API", "Node.js", "Go"],
     demoUrl: "https://apps.shopify.com/because",
   },
   {

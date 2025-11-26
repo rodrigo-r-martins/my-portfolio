@@ -47,7 +47,7 @@ In November 2021, Rodrigo joined Because, a company that would become the stage 
 
 Starting as a frontend specialist, Rodrigo contributed to existing React-based applications while learning the product domain and technical stack. This period was crucial for establishing his foundation for full-stack development and understanding the e-commerce technology landscape.
 
-#### Software Engineer I (March 2022 - June 2024)
+#### Full Stack Engineer I (March 2022 - June 2024)
 
 As he grew into a full-stack role, Rodrigo's impact became increasingly significant. During this period, he:
 
@@ -58,9 +58,9 @@ As he grew into a full-stack role, Rodrigo's impact became increasingly signific
 - Successfully debugged complex Shopify API syncing issues during peak demand periods
 - Worked extensively with React, JavaScript, Python, Flask, and Shopify APIs
 
-#### Software Engineer II (June 2024 - Present)
+#### Full Stack Engineer II (June 2024 - Present)
 
-His promotion to Software Engineer II marked recognition of his technical expertise and leadership capabilities. In this role, Rodrigo has achieved remarkable results:
+His promotion to Full Stack Engineer II marked recognition of his technical expertise and leadership capabilities. In this role, Rodrigo has achieved remarkable results:
 
 - Shipped over 100 bug fixes and change requests, reducing QA turnaround time by 40%
 - Led the development of a comprehensive Shopify Data Integration system, replacing third-party tools and significantly improving performance
@@ -96,7 +96,7 @@ His technical focus spans the full stack of modern web development:
 - **Frontend**: React, TypeScript, Next.js, Tailwind CSS, Redux, Zustand, TanStack Router, Ionic, Angular
 - **Backend**: Python, Flask, Go, Node.js, Hono, Express.js, REST APIs
 - **Database**: PostgreSQL, ClickHouse, MongoDB, Firebase, Grafana, Upstash
-- **DevOps**: Docker, Git, AWS, GA4 Integration
+- **DevOps**: Docker, Git, AWS, GA4 Integration, OAuth
 - **E-commerce**: Shopify API, Shopify App Store, Shopify Theme development
 - **AI/ML**: OpenAI API, Google AI SDK, and AI-driven solutions
 

@@ -29,6 +29,10 @@ export const experiences: Experience[] = [
       "GA4 Integration",
       "PostgreSQL",
       "Upstash",
+      "Firecrawl",
+      "Google OAuth",
+      "Supabase",
+      "Vercel",
     ],
   },
   {
@@ -45,8 +49,10 @@ export const experiences: Experience[] = [
     ],
     skills: [
       "React",
+      "Redux",
       "TypeScript",
       "Python",
+      "Flask",
       "Go",
       "PostgreSQL",
       "ClickHouse",
@@ -67,9 +73,11 @@ export const experiences: Experience[] = [
     ],
     skills: [
       "React",
+      "Redux",
       "JavaScript",
       "Python",
       "Flask",
+      "PostgreSQL",
       "Shopify APIs",
       "HTML/CSS",
     ],
@@ -94,7 +102,7 @@ export const experiences: Experience[] = [
       "Worked closely with the front-end team to build a responsive web platform",
       "Ensured seamless user experience across both web and mobile devices",
     ],
-    skills: ["React", "JavaScript", "HTML/CSS", "MongoDB"],
+    skills: ["React", "JavaScript", "HTML/CSS", "MongoDB", "Node.js", "Express.js"],
   },
   {
     title: "Lawyer",
