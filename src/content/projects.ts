@@ -107,7 +107,7 @@ export const projects: Project[] = [
     summary: "Fixed 20+ bugs and improved rendering stability by 50%.",
     isFeatured: false,
     technologies: ["React", "TypeScript", "Shopify API", "Node.js", "Go"],
-    demoUrl: "https://youtu.be/CRmv0Nlv_iM?si=c1fjhhYPW-iDMMuK",
+    demoUrl: "https://www.youtube.com/watch?v=voDMq-LHmAE",
   },
   {
     title: "InspirePic",
