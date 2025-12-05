@@ -55,6 +55,9 @@ export default function ExperiencePage() {
                 <div className="mt-1 text-sm text-gray-600 dark:text-gray-400">
                   {experience.company}
                 </div>
+                <div className="mt-1 text-sm text-gray-600 dark:text-gray-400">
+                  {experience.location}
+                </div>
               </div>
 
               {/* Content */}

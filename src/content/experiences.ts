@@ -1,15 +1,18 @@
 interface Experience {
   title: string;
   company: string;
+  companyUrl?: string;
   period: string;
   achievements: string[];
   skills: string[];
+  location?: string;
 }
 
 export const experiences: Experience[] = [
   {
     title: "Founding Engineer (Contract)",
     company: "Bubblegum",
+    companyUrl: "https://www.usebubblegum.com/",
     period: "Jun 2025 – Nov 2025",
     achievements: [
       "Developed a full-stack SaaS platform converting e-commerce pages into structured, LLM-optimized markdown for AI search and discovery",
@@ -34,10 +37,12 @@ export const experiences: Experience[] = [
       "Supabase",
       "Vercel",
     ],
+    location: "Remote",
   },
   {
     title: "Full Stack Engineer II",
     company: "Because Intelligence",
+    companyUrl: "https://www.trybecause.com",
     period: "June 2024 – Present",
     achievements: [
       "Shipped 100+ bug fixes and change requests, reducing QA turnaround by 40%",
@@ -59,10 +64,12 @@ export const experiences: Experience[] = [
       "Grafana",
       "Docker",
     ],
+    location: "Remote",
   },
   {
     title: "Full Stack Engineer I",
     company: "Because Intelligence",
+    companyUrl: "https://www.trybecause.com",
     period: "March 2022 – June 2024",
     achievements: [
       "Closed 250+ tickets across frontend and backend",
@@ -81,10 +88,12 @@ export const experiences: Experience[] = [
       "Shopify APIs",
       "HTML/CSS",
     ],
+    location: "Remote",
   },
   {
     title: "Frontend Engineer",
     company: "Because Intelligence",
+    companyUrl: "https://www.trybecause.com",
     period: "November 2021 – March 2022",
     achievements: [
       "Joined the team as a frontend specialist",
@@ -93,6 +102,7 @@ export const experiences: Experience[] = [
       "Established foundation for full-stack development",
     ],
     skills: ["React", "JavaScript", "HTML/CSS", "Shopify APIs"],
+    location: "Remote",
   },
   {
     title: "Frontend Engineer",
@@ -103,6 +113,7 @@ export const experiences: Experience[] = [
       "Ensured seamless user experience across both web and mobile devices",
     ],
     skills: ["React", "JavaScript", "HTML/CSS", "MongoDB", "Node.js", "Express.js"],
+    location: "Remote",
   },
   {
     title: "Lawyer",

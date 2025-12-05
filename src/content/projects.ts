@@ -14,11 +14,12 @@ export const projects: Project[] = [
     title: "AI-Driven Product Visibility Optimization",
     slug: "llm-visibility-optimization",
     description:
-      "Building an AI-powered platform to help merchants assess and enhance their product visibility in Large Language Models (LLMs). The project focuses on optimizing product metadata, analyzing visibility metrics, and converting e-commerce pages into structured, LLM-optimized markdown for AI search and discovery to boost discoverability in AI-driven commerce.",
+      "Built an AI-powered platform to help merchants assess and enhance their product visibility in Large Language Models (LLMs). The project focuses on optimizing product metadata, analyzing visibility metrics, and converting e-commerce pages into structured, LLM-optimized markdown for AI search and discovery to boost discoverability in AI-driven commerce.",
     summary:
       "AI-powered platform to optimize and boost product visibility in LLM-driven commerce.",
     isFeatured: true,
     technologies: ["Node.js", "TypeScript", "PostgreSQL", "Grafana", "OpenAI API", "Gemini", "Google OAuth", "Google Analytics 4", "Upstash"],
+    demoUrl: "https://youtu.be/lRp6Nd5HLwg?si=R4SoQLi9UbF8LR07"
   },
   {
     title: "AI Personal Assistant Chat Bot",
@@ -27,7 +28,7 @@ export const projects: Project[] = [
       "Built an intelligent chat widget for my portfolio that uses OpenAI's GPT-4 to answer questions about myself. Features scope validation, rate limiting, and a responsive UI that provides personalized responses based on my portfolio content.",
     summary:
       "AI-powered chat bot that answers questions about my professional background.",
-    isFeatured: true,
+    isFeatured: false,
     technologies: [
       "Next.js",
       "TypeScript",
@@ -41,7 +42,7 @@ export const projects: Project[] = [
     slug: "url-shortner",
     description: "A full-stack URL shortening service that converts long URLs into short, shareable links. Features cryptographically secure short code generation, duplicate detection to reuse existing short URLs, fast redirects, and a responsive UI. Built with a scalable architecture supporting high traffic with collision handling, health monitoring, and structured logging.",
     summary: "Service that converts long URLs into short links",
-    isFeatured: false,
+    isFeatured: true,
     technologies: [
       "React",
       "TypeScript",
@@ -70,7 +71,23 @@ export const projects: Project[] = [
       "Docker",
       "ClickHouse",
     ],
-    demoUrl: "https://apps.shopify.com/because",
+    demoUrl: "https://youtu.be/voDMq-LHmAE?si=Nmt4WtyQBbB9GYTG",
+  },
+  {
+    title: "Product Recommendation",
+    slug: "product-recommendation",
+    description: "Developed a full-featured product recommendation campaign system at Because. Built the frontend for campaign templates and product selection logic, and implemented scripts to handle user interactions with the campaign widget, including add-to-cart events. Designed backend worker logic to track recommended products, ingest data into ClickHouse, and generate analytics metrics using materialized views for performance monitoring and insights.",
+    summary: "Developed a product recommendation campaign system at Because.",
+    isFeatured: false,
+    technologies: [
+      "React",
+      "TypeScript",
+      "Python",
+      "Go",
+      "ClickHouse",
+      "Grafana"
+    ],
+    demoUrl: "https://youtu.be/kXe4glh3xlQ?si=hod1rgiiSUcz5mLJ",
   },
   {
     title: "Observability Dashboards",
@@ -90,7 +107,7 @@ export const projects: Project[] = [
     summary: "Fixed 20+ bugs and improved rendering stability by 50%.",
     isFeatured: false,
     technologies: ["React", "TypeScript", "Shopify API", "Node.js", "Go"],
-    demoUrl: "https://apps.shopify.com/because",
+    demoUrl: "https://youtu.be/CRmv0Nlv_iM?si=c1fjhhYPW-iDMMuK",
   },
   {
     title: "InspirePic",
