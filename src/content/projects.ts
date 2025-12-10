@@ -51,7 +51,9 @@ export const projects: Project[] = [
       "MongoDB",
       "Vercel",
       "Hashids",
-      "TanStack React Query"
+      "TanStack React Query",
+      "Redis",
+      "JWT"
     ],
     demoUrl: "https://encurt.xyz",
     githubUrl: "https://github.com/rodrigo-r-martins/url-shortner"
