@@ -59,6 +59,20 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/rodrigo-r-martins/url-shortner"
   },
   {
+    title: "The Career Vault",
+    slug: "the-career-vault",
+    description: "Built an AI assistant that uses LangChain and ChromaDB to automate job applications. Implemented a RAG pipeline to dynamically tailor resumes and cover letters by matching candidate experience to job descriptions using local LLMs (Ollama/DeepSeek).",
+    summary: "AI assistant that automates job applications.",
+    isFeatured: false,
+    technologies: [
+      "Python",
+      "LangChain",
+      "Ollama",
+      "ChromaDB",
+    ],
+    githubUrl: "https://github.com/rodrigo-r-martins/the-career-vault",
+  },
+  {
     title: "Shopify Data Integration",
     slug: "shopify-data-integration",
     description:
@@ -144,9 +158,9 @@ export const technologiesFields = {
     "Ionic",
     "Angular",
   ],
-  backend: ["Python", "Flask", "Go", "Node.js", "Hono", "Express.js", "REST APIs"],
-  database: ["PostgreSQL", "ClickHouse", "MongoDB", "Firebase", "Grafana", "Upstash"],
+  backend: ["Python", "Flask", "Go", "Node.js", "Hono", "Express.js", "REST APIs", "GraphQL", "Grafana", "Upstash", "Firecrawl"],
+  database: ["PostgreSQL", "ClickHouse", "MongoDB", "Firebase", "Supabase", "Redis"],
   devOps: ["Docker", "Git", "AWS", "GA4 Integration"],
   ecommerce: ["Shopify API", "Shopify App Store", "Shopify Theme"],
-  ai: ["OpenAI API", "Google AI SDK"],
+  ai: ["OpenAI API", "Google AI SDK", "LangChain", "Ollama"],
 };

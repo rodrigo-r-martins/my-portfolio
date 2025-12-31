@@ -43,7 +43,7 @@ export const experiences: Experience[] = [
     title: "Full Stack Engineer II",
     company: "Because Intelligence",
     companyUrl: "https://www.trybecause.com",
-    period: "June 2024 – Present",
+    period: "June 2024 – Dez 2025",
     achievements: [
       "Shipped 100+ bug fixes and high-priority change requests, improving platform stability and reducing QA turnaround time by 40% through tighter feedback loops and root-cause debugging",
       "Led architecture and development of the Shopify Data Integration system, replacing multiple third-party tools with an in-house ingestion + normalization pipeline that improved data accuracy, reduced cost, and enabled new personalization features",
@@ -96,7 +96,7 @@ export const experiences: Experience[] = [
     companyUrl: "https://www.trybecause.com",
     period: "November 2021 – March 2022",
     achievements: [
-      "Joined the team as a frontend specialist",
+      "Joined the team as a frontend specialist - second engineer in to join",
       "Contributed to existing React-based applications while learning the product domain and technical stack",
       "Established foundation for full-stack development",
     ],

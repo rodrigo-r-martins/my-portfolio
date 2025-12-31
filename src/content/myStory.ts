@@ -58,7 +58,7 @@ As he grew into a full-stack role, Rodrigo's impact became increasingly signific
 - Successfully debugged complex Shopify API syncing issues during peak demand periods
 - Worked extensively with React, JavaScript, Python, Flask, and Shopify APIs
 
-#### Full Stack Engineer II (June 2024 - Present)
+#### Full Stack Engineer II (June 2024 - Dez 2025)
 
 His promotion to Full Stack Engineer II marked recognition of his technical expertise and leadership capabilities. In this role, Rodrigo has achieved remarkable results:
 
@@ -94,11 +94,11 @@ Rodrigo's approach to software development is grounded in three core principles 
 His technical focus spans the full stack of modern web development:
 
 - **Frontend**: React, TypeScript, Next.js, Tailwind CSS, Redux, Zustand, TanStack Router, Ionic, Angular
-- **Backend**: Python, Flask, Go, Node.js, Hono, Express.js, REST APIs
-- **Database**: PostgreSQL, ClickHouse, MongoDB, Firebase, Grafana, Upstash
+- **Backend**: Python, Flask, Go, Node.js, Hono, Express.js, REST APIs, GraphQL, Grafana, Upstash
+- **Database**: PostgreSQL, ClickHouse, MongoDB, Firebase, Supabase, Redis
 - **DevOps**: Docker, Git, AWS, GA4 Integration, OAuth
 - **E-commerce**: Shopify API, Shopify App Store, Shopify Theme development
-- **AI/ML**: OpenAI API, Google AI SDK, and AI-driven solutions
+- **AI/ML**: OpenAI API, Google AI SDK, LangChain, Ollama and AI-driven solutions
 
 ## Notable Projects and Innovations
 

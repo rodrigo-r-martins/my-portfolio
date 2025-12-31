@@ -87,6 +87,7 @@ export const aboutContent: {
     paragraphs: [
       "I'm a full-stack engineer with a passion for creating elegant solutions to complex problems. My journey in tech began with simple HTML websites and has evolved into building sophisticated full-stack applications that serve thousands of users.",
       "At Because, I've had the opportunity to work on challenging projects that have significantly improved our data analytics and e-commerce capabilities. I take pride in writing clean, maintainable code and building features that make a real impact on user experience.",
+      "At Bubblegum, I served as Founding Engineer (Contract) and led the development of an AI-powered SaaS platform that transformed raw e-commerce pages into structured, LLM-optimized markdown for AI-driven search and discovery. I architected a Node.js API integrating OpenAI and Google Gemini for advanced content processing, and implemented asynchronous workflows and web scraping to create a reliable pipeline. This experience expanded my expertise in Hono, Zustand, Upstash, GA4 analytics, and the latest AI technologies, showcasing my ability to rapidly build production-ready, innovative solutions.",
     ],
   },
   workPhilosophy: {

@@ -23,8 +23,9 @@ export default function Home() {
             </span>
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-gray-600 dark:text-gray-400">
-            Full Stack Engineer specializing in building exceptional digital
-            experiences. Currently working on AI-driven e-commerce solutions.
+            Full Stack Engineer passionate about building robust products and
+            user experiences. Building AI-powered solutions for modern
+            e-commerce and analytics.
           </p>
           <div className="mt-10 flex gap-4">
             <Link
