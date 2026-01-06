@@ -25,8 +25,9 @@ export async function POST(req: Request) {
       );
     }
 
-    // Check if question is in scope
-    if (!isInScope(question)) {
+    // Check if question is in scope (now async with semantic search)
+    const inScope = await isInScope(question);
+    if (!inScope) {
       return NextResponse.json({
         answer: OUT_OF_SCOPE_MESSAGE,
         outOfScope: true,
