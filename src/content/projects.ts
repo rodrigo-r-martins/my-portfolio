@@ -17,7 +17,7 @@ export const projects: Project[] = [
       "Built an AI-powered platform to help merchants assess and enhance their product visibility in Large Language Models (LLMs). The project focuses on optimizing product metadata, analyzing visibility metrics, and converting e-commerce pages into structured, LLM-optimized markdown for AI search and discovery to boost discoverability in AI-driven commerce.",
     summary:
       "AI-powered platform to optimize and boost product visibility in LLM-driven commerce.",
-    isFeatured: true,
+    isFeatured: false,
     technologies: ["Node.js", "TypeScript", "PostgreSQL", "Grafana", "OpenAI API", "Gemini", "Google OAuth", "Google Analytics 4", "Upstash"],
     demoUrl: "https://youtu.be/lRp6Nd5HLwg?si=R4SoQLi9UbF8LR07"
   },
@@ -59,11 +59,29 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/rodrigo-r-martins/url-shortner"
   },
   {
+    title: "Real-Time PubSub System",
+    slug: "pubsub-system",
+    description: "A production-ready WebSocket-based publish-subscribe system built with Go, demonstrating essential concurrency primitives including goroutines, channels, context management, and graceful shutdown patterns. Features a simplified architecture that balances production readiness with code clarity.",
+    summary: "WebSocket PubSub server with Go concurrency primitives, supporting real-time broadcasting to multiple clients with graceful shutdown and comprehensive testing.",
+    isFeatured: true,
+    technologies: [
+      "Go",
+      "WebSockets",
+      "Concurrency",
+      "Context API",
+      "Channels",
+      "HTTP",
+      "Testing"
+    ],
+    demoUrl: undefined, // or omit this field
+    githubUrl: "https://github.com/rodrigo-r-martins/pubsub-system"
+  },
+  {
     title: "The Career Vault",
     slug: "the-career-vault",
     description: "Built an AI assistant that uses LangChain and ChromaDB to automate job applications. Implemented a RAG pipeline to dynamically tailor resumes and cover letters by matching candidate experience to job descriptions using local LLMs (Ollama/DeepSeek).",
     summary: "AI assistant that automates job applications.",
-    isFeatured: false,
+    isFeatured: true,
     technologies: [
       "Python",
       "LangChain",
@@ -79,7 +97,7 @@ export const projects: Project[] = [
       "Led the Shopify Data Integration project, where I rebuilt the full ingestion pipeline to make it scalable, reliable, and real-time. The system digested incoming Shopify data on the server and pushed it into AWS SQS, where a fleet of Go workers consumed, validated, and transformed the payloads before loading them into ClickHouse. The database then updated optimized materialized views for fast analytics queries, and a rule-evaluation layer used the freshly processed data to determine which campaigns should appear on storefront pages. This redesign significantly improved performance, stability, and end-to-end visibility across the entire data flow.",
     summary:
       "Created a custom Shopify data integration solution to replace third-party tools.",
-    isFeatured: true,
+    isFeatured: false,
     technologies: [
       "Go",
       "Shopify API",
