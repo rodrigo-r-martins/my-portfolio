@@ -10,6 +10,15 @@ interface Experience {
 
 export const experiences: Experience[] = [
   {
+    title: "Software Engineer II",
+    company: "Articulate",
+    companyUrl: "https://www.articulate.com",
+    period: "February 2026 – Present",
+    achievements: [],
+    skills: [],
+    location: "Remote",
+  },
+  {
     title: "Founding Engineer (Contract)",
     company: "Bubblegum",
     companyUrl: "https://www.usebubblegum.com/",
