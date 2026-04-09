@@ -47,7 +47,7 @@ In November 2021, Rodrigo joined Because, a company that would become the stage 
 
 Starting as a frontend specialist, Rodrigo contributed to existing React-based applications while learning the product domain and technical stack. This period was crucial for establishing his foundation for full-stack development and understanding the e-commerce technology landscape.
 
-#### Full Stack Engineer I (March 2022 - June 2024)
+#### Software Engineer I (March 2022 - June 2024)
 
 As he grew into a full-stack role, Rodrigo's impact became increasingly significant. During this period, he:
 
@@ -58,7 +58,7 @@ As he grew into a full-stack role, Rodrigo's impact became increasingly signific
 - Successfully debugged complex Shopify API syncing issues during peak demand periods
 - Worked extensively with React, JavaScript, Python, Flask, and Shopify APIs
 
-#### Full Stack Engineer II (June 2024 - Dez 2025)
+#### Software Engineer II (June 2024 - Dez 2025)
 
 His promotion to Full Stack Engineer II marked recognition of his technical expertise and leadership capabilities. In this role, Rodrigo has achieved remarkable results:
 
@@ -82,6 +82,10 @@ During his time at Bubblegum, Rodrigo:
 - Built a modern dashboard with React and TanStack Router (SSR), featuring real-time monitoring through Supabase Realtime and advanced analytics using GA4 and Recharts, providing comprehensive insights into platform performance
 
 This experience at Bubblegum further expanded Rodrigo's technical repertoire, adding Zustand for state management, Hono for high-performance API development, Google AI SDK for multimodal AI capabilities, GA4 Integration for advanced analytics, and Upstash for serverless database solutions. The project demonstrated his ability to work with cutting-edge technologies and deliver complex AI-powered solutions that solve real-world business problems.
+
+### The Articulate Chapter: AI-Powered SaaS Innovation (February 2026 - Present)
+
+Rodrigo joined Articulate as a Software Engineer II to work on the Growth Team.
 
 ## Technical Philosophy and Approach
 
