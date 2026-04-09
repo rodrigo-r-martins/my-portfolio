@@ -49,7 +49,7 @@ export const experiences: Experience[] = [
     location: "Remote",
   },
   {
-    title: "Full Stack Engineer II",
+    title: "Software Engineer II",
     company: "Because Intelligence",
     companyUrl: "https://www.trybecause.com",
     period: "June 2024 – Dez 2025",
@@ -76,7 +76,7 @@ export const experiences: Experience[] = [
     location: "Remote",
   },
   {
-    title: "Full Stack Engineer I",
+    title: "Software Engineer I",
     company: "Because Intelligence",
     companyUrl: "https://www.trybecause.com",
     period: "March 2022 – June 2024",
